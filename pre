@@ -1,0 +1,5659 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	color: #737373;
+	background-color: white;
+	margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>graphicMainNav {</title>
+
+</head>
+<body>
+
+
+<p><html xmlns="http://www.w3.org/1999/xhtml"></p>
+
+<p><head></p>
+
+<p><meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" /></p>
+
+<!-- TemplateBeginEditable name="doctitle" -->
+
+
+<p>
+<title>周二presentation	</title></p>
+
+<!-- TemplateEndEditable -->
+
+
+
+
+<!-- TemplateBeginEditable name="head" -->拉拉拉拉<!-- TemplateEndEditable -->
+
+
+<p></head></p>
+
+<p><body></p>
+
+<div class="data-viz">
+
+  <div class="data-viz">
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!--Begin Custom Content Section -->
+
+    <style type="text/css" media="screen">
+
+.mainText {
+
+    font-family:arial,sans-serif;
+
+    font-size:12px;
+
+    font-color:#333333;
+
+    line-height:15px;
+
+    text-align:left;
+
+}
+
+.mainText.bold {
+
+    font-weight:bold;
+
+}
+
+div#annotationsContainer {
+
+    position:relative;
+
+    z-index:499;
+
+}
+
+div.mainText.annotations {
+
+    position:absolute;
+
+}
+
+div#instruct1 {
+
+    top:20px;
+
+    left:710px;
+
+    width:180px;
+
+    text-align:left;
+
+}
+
+div#instruct2 {
+
+    top:100px;
+
+    left:60px;
+
+    width:140px;
+
+    text-align:right;
+
+}
+
+div#instruct3 {
+
+    top:320px;
+
+    left:860px;
+
+    width:110px;
+
+}
+
+.pointers {
+
+    position:absolute;
+
+    z-index:500;
+
+}
+
+div#pointer1 {
+
+    width:90px;
+
+    height:20px;
+
+    border-top:1px solid #000000;
+
+    border-left:1px solid #000000;
+
+    top:40px;
+
+    left:610px;
+
+}
+
+div#pointer2 {
+
+    width:85px;
+
+    height:1px;
+
+    border-top:1px solid #000000;
+
+    top:130px;
+
+    left:210px;
+
+}
+
+div#pointer3 {
+
+    width:115px;
+
+    height:20px;
+
+    border-bottom:1px solid #000000;
+
+    border-left:1px solid #000000;
+
+    top:325px;
+
+    left:735px;
+
+}
+
+div#famTreeInstruct {
+
+    top: 200px;
+
+    left:780px;
+
+    width:120px;
+
+    position:absolute;
+
+    font-style:italic;
+
+}
+
+div.header {
+
+    font-family:arial, sans-serif;
+
+    font-weight:bold;
+
+    font-size:24px;
+
+    color:#414042;
+
+    clear:left;
+
+    margin-top:10px;
+
+}
+
+div.introText {
+
+    font-family:arial,sans-serif;
+
+    font-size:18px;
+
+    line-height:21px;
+
+    color:#414042;
+
+}
+
+#graphicMainNav {
+
+    width:964px;
+
+    border-top:1px solid #CCCCCC;
+
+    border-bottom:1px solid #CCCCCC;
+
+    display:block;
+
+    float:left;
+
+    margin-bottom:20px;
+
+}
+
+.mainNavLinks {
+
+    width:240px;
+
+    padding-top:10px;
+
+    padding-bottom:10px;
+
+    float:left;
+
+    font-family:arial,sans-serif;
+
+    font-size:14px;
+
+    border-right: 1px solid #CCCCCC;
+
+    display:block;
+
+    cursor:pointer;
+
+}
+
+li.mainNavLinks {
+
+    color:#6D6E71;
+
+    text-decoration:none;
+
+    display:block;
+
+    position:relative;
+
+}
+
+li.mainNavLinks:hover {
+
+    color:#414042 !important;
+
+    font-weight:bold !important;
+
+    text-decoration:none;
+
+    display:block;
+
+    background-color:#F1F2F2;
+
+    border:1px solid #ffffff;
+
+    padding-top:9px;
+
+    padding-bottom:9px;
+
+    width:239px;
+
+}
+
+li.mainNavLinks.active {
+
+    color:#414042;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+    display:block;
+
+    background-color:#F1F2F2;
+
+    border:1px solid #ffffff;
+
+    padding-top:9px;
+
+    padding-bottom:9px;
+
+    width:239px;
+
+}
+
+li.mainNavLinks div.navName {
+
+    text-align:center;
+
+}
+
+li.mainNavLinks div.navIcon {
+
+    background-repeat:no-repeat;
+
+    position:absolute;
+
+    padding-right:15px;
+
+    top:8px;
+
+    left:22px;
+
+}
+
+li.mainNavLinks div.navIcon{
+
+    float:right;
+
+    width:26px;
+
+    height:26px;
+
+}
+
+li#connectNav div.navIcon {
+
+    left:30px;
+
+    top:5px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/connectIcon_inactive_test.png);
+
+}
+
+li#connectNav.active div.navIcon {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/connectIcon_active.png);
+
+}
+
+li#connectNav:hover div.navIcon {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/connectIcon_active.png);
+
+}
+
+li#patNav div.navIcon {
+
+    left:45px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/pats_inactive.png);
+
+}
+
+li#patNav.active div.navIcon {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/pats_active.png);
+
+}
+
+li#patNav:hover div.navIcon {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/pats_active.png);
+
+}
+
+li#familyTreeNav div.navIcon {
+
+    left:40px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/famTree_inactive.png);
+
+}
+
+li#familyTreeNav.active div.navIcon {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/famTree_active.png);
+
+}
+
+li#familyTreeNav:hover div.navIcon {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/famTree_active.png);
+
+}
+
+li#trendsNav div.navIcon {
+
+    left:30px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/trends_inactive.png);
+
+}
+
+li#trendsNav.active div.navIcon {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/trends_active.png);
+
+}
+
+li#trendsNav:hover div.navIcon {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/trends_active.png);
+
+}
+
+#trendsNav {
+
+    border-right:none;
+
+}
+
+.contentContainer {
+
+    clear:left;
+
+    display:none;
+
+}
+
+.contentContainer#loaderContainer{
+
+    display:block;
+
+    font-family:arial,sans-serif;
+
+    color:#333333;
+
+    font-size: 2em;
+
+    text-align: center;
+
+    padding:25pt;
+
+    padding-left:300pt;
+
+}
+
+.contentContainer#loaderContainer span{
+
+    float:left;
+
+}
+
+.contentContainer#loaderContainer span span{
+
+    float:right;
+
+}
+
+#connectContainer {
+
+    width:964px;
+
+    height:960px;
+
+}
+
+#patriarchContainer {
+
+    width:960px;
+
+    height:920px;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+#trendsContainer {
+
+    width:960px;
+
+    height:1600px;
+
+}
+
+div#trendsContainer div.introText {
+
+    margin-bottom:40px;
+
+}
+
+#familyTreeContainer {
+
+    width:960px;
+
+    height:1300px;
+
+    position: relative;
+
+    top: -20px;
+
+}
+
+#familyTreeDropdown {
+
+    background-color: #F1F2F2;
+
+    clear: left;
+
+    display: block;
+
+    height: 20px;
+
+    padding: 5px;
+
+    width: 955px;
+
+}
+
+#familyForm {
+
+    float:left;
+
+}
+
+#familyTreeBackground {
+
+    position:relative;
+
+    z-index:-11110;
+
+}
+
+#familyTreeBackground2 {
+
+    position:relative;
+
+    z-index:-11110;
+
+}
+
+.familyTreeLabels {
+
+    font-family:arial,sans-serif;
+
+    font-size:10px;
+
+    text-transform:uppercase;
+
+    color:#6D6E71;
+
+    position:absolute;
+
+    top:10px;
+
+    left:430px;
+
+    text-align:center;
+
+}
+
+.familyTreeLabels li {
+
+    margin-bottom:100px;
+
+}
+
+.familyTreeLabels li#gen2label {
+
+    margin-bottom:145px;
+
+}
+
+.familyTreeLabels.gen4 li {
+
+    margin-bottom:80px;
+
+}
+
+.familyTreeLabels.gen4 li#gen2label {
+
+    margin-bottom:110px;
+
+}
+
+div.clanContainer {
+
+    width:100%;
+
+}
+
+body [tooltip] {
+
+    cursor:default;
+
+}
+
+div.tooltip {
+
+    background-color: #eeeeee;
+
+    position:absolute;
+
+    padding:7px;
+
+    border-radius:5px;
+
+    box-shadow: 2px 2px 1px #777;
+
+    -moz-box-shadow: 2px 2px 1px #777;
+
+    -webkit-box-shadow: 2px 2px 1px #777;
+
+    /* For IE 8 */
+
+    -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=3,Direction=135,Color='#777777')";
+
+    /* For IE 5.5 - 7 */
+
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3,Direction=135,Color='#777777');
+
+    z-index: 99999; 
+
+    display: none;
+
+    border:2px solid #ffffff;
+
+}
+
+div.photoCredit {
+
+    font-family:arial,sans-serif;
+
+    font-size:11px;
+
+    color:#666666;
+
+    position:absolute;
+
+    bottom:0px;
+
+    margin-top:25px;
+
+}
+
+div#sourceline {
+
+    font-family:arial,sans-serif;
+
+    font-size:11px;
+
+    color:#666666;
+
+}
+
+div.bubbleContainer {
+
+    margin-top:15px;
+
+    position:relative;
+
+}
+
+div.bubble {
+
+    position:absolute;
+
+    height:160px;
+
+    width:160px;
+
+    border-radius: 80px;
+
+    cursor:default;
+
+}
+
+.famTie_bubble {
+
+    font-weight:normal !important;
+
+}
+
+div.bubble.deng {
+
+    z-index:9990;
+
+}
+
+div.bubble.chen {
+
+    z-index:9990;
+
+}
+
+div.bubble.song {
+
+    z-index:9990;
+
+}
+
+div.bubble.bo {
+
+    z-index:9990;
+
+}
+
+div.bubble.peng {
+
+    z-index:9990;
+
+}
+
+div.bubble.yang {
+
+    z-index:9990;
+
+}
+
+div.bubble.liX {
+
+    z-index:9990;
+
+}
+
+div.bubble.wang {   
+
+    z-index:9990;
+
+}
+
+div.bubble div.name { 
+
+    font-family:arial,sans-serif;
+
+    font-size:12px;
+
+    position:absolute;
+
+    top:50px;
+
+}
+
+div.bubble div.name.right {
+
+    top:40px;
+
+    right:15px;
+
+    text-align:right;
+
+}
+
+div.bubble div.name.center {
+
+    top:55px;
+
+    left:0px;
+
+    width:160px;
+
+    text-align:center;
+
+}
+
+div.bubble div.name.left {
+
+    top:50px;
+
+    left:15px;
+
+    text-align:left;
+
+}
+
+div.bubble.elder {
+
+    height:260px;
+
+    width:260px;
+
+    border-radius:130px;
+
+    z-index:0;
+
+}
+
+div.bubble.elder.extraGen {
+
+    width:230px;
+
+    height:230px;
+
+    border-radius: 115px;
+
+    z-index:0;  
+
+}
+
+div.bubble.elder div.name {
+
+    font-size:24px;
+
+    line-height:28px;
+
+}
+
+div.bubble.tiny {
+
+    height:100px;
+
+    width:100px;
+
+    padding:0px;
+
+    border-radius: 50px;
+
+}
+
+div.bubble.tiny div.name {
+
+    top:15px;
+
+    left:0px;
+
+    width:100px;
+
+    text-align:center;
+
+}
+
+div.bubble.small {
+
+    height:115px;
+
+    width:115px;
+
+    padding:0px;
+
+    border-radius: 113;
+
+}
+
+div.bubble.small div.name {
+
+    top:20px;
+
+}
+
+div.bubble.small div.name.right {
+
+    text-align:right;
+
+    right:20px;
+
+    top:13px;
+
+    left:;
+
+}
+
+div.bubble.small div.name.center {
+
+    text-align:center;
+
+    left:0px;
+
+    top:30px;
+
+    width:115px;
+
+}
+
+
+
+div.bubble.small div.name.left {
+
+    left:15px;
+
+    top:30px;
+
+    text-align:left;
+
+}
+
+div.bubble.medium {
+
+    height:130px;
+
+    width:129px;
+
+    padding:0px;
+
+    border-radius: 65px;
+
+}
+
+div.bubble.medium div.name {
+
+    top:22px;
+
+}
+
+div.bubble.medium div.name.right {
+
+    text-align:right;
+
+}
+
+div.bubble.medium div.name.center {
+
+    top:40px;
+
+    left:0px;
+
+    width:129px;
+
+    text-align:center;
+
+}
+
+div.bubble.medium div.name.left {
+
+    text-align:left;
+
+    left:15px;
+
+    top:33px;
+
+}
+
+div.bubble.deng.small div.name.center {
+
+    top:30px;
+
+    left:0px;
+
+    text-align:center;
+
+}
+
+div#dengXiaoping.bubble {
+
+    top:365px;
+
+    left:365px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/deng_elder2.png);
+
+}
+
+div#dengXiaoping.bubble div.name {
+
+    right:110px;
+
+    top:35px;
+
+}
+
+div#zhuoLin.bubble {
+
+    top:490px;
+
+    left:360px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/zhuoLin.png); 
+
+    z-index:99999;
+
+}
+
+div#gaoSuning.bubble{
+
+    top:280px;
+
+    left:650px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#dengPufang.bubble {
+
+    top:180px;
+
+    left:530px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/dengPufang.png);
+
+}
+
+div#wuJianchang.bubble {
+
+    top:180px;
+
+    left:300px;
+
+    z-index:1000;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#wuJianchang.bubble div.name {
+
+    top:20px;
+
+    left:0px;
+
+}
+
+div#dengLin.bubble {
+
+    top:230px;
+
+    left:200px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/dengLin.png);
+
+}
+
+div#dengZhuosu.bubble {
+
+    top:180px;
+
+    left:90px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/deng_small.png);
+
+}
+
+div#dengNan.bubble {
+
+    top:440px;
+
+    left:660px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/dengNan.png);
+
+}
+
+div#dengZhuorui.bubble {
+
+    top:530px;
+
+    left:815px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/deng_small.png);
+
+}
+
+div#zhangHong.bubble {
+
+    top:570px;
+
+    left:650px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#dengRong.bubble {
+
+    top:655px;
+
+    left:440px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/dengRong.png);
+
+}
+
+div#hePing.bubble {
+
+    top:675px;
+
+    left:340px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/hePing1.png);
+
+}
+
+div#dengZhuoyue.bubble {
+
+    top:820px;
+
+    left:470px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/deng_small.png);
+
+}
+
+div#fengBo.bubble {
+
+    top:800px;
+
+    left:560px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#fengRan.bubble {
+
+    top:940px;
+
+    left:480px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/deng_tiny.png);
+
+}
+
+div#dengZhifang.bubble {
+
+    top:530px;
+
+    left:160px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/deng_bubble.png);
+
+}
+
+div#liuXiaoyuan.bubble {
+
+    top:435px;
+
+    left:150px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#dengZhuodi.bubble {
+
+    top:650px;
+
+    left:80px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/deng_small.png);
+
+}
+
+div#chenYun.bubble {
+
+    top:355px;
+
+    left:355px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_elder.png);
+
+}
+
+div#chenYun.bubble div.name {
+
+    top:70px;
+
+    right:30px;
+
+}
+
+div#yuRuomu.bubble {
+
+    top:520px;
+
+    left:520px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yuRuomu2.png);
+
+    z-index:99999;
+
+}
+
+div#yuRuomu.bubble div.name {
+
+    top:25px;
+
+}
+
+div#chenWeili.bubble {
+
+    top:140px;
+
+    left:490px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_medium.png);
+
+}
+
+div#sunFang.bubble {
+
+    top:200px;
+
+    left:590px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#chenQian.bubble {
+
+    top:30px;
+
+    left:560px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_small.png);
+
+}
+
+div#chenShuyu.bubble {
+
+    top:70px;
+
+    left:180px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_small.png);
+
+}
+
+div#chenYuan.bubble {
+
+    top:350px;
+
+    left:700px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chenYuan.png);
+
+}
+
+div#sunYuli.bubble {
+
+    top:450px;
+
+    left:700px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#bianXiajun.bubble {
+
+    top:560px;
+
+    left:670px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#tianLan.bubble {
+
+    top:640px;
+
+    left:590px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#chenXiaodan.bubble {
+
+    top:380px;
+
+    left:845px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chenXiaodan5.png);
+
+}
+
+div#chenXiaodan.bubble div.name {
+
+    top:15px;
+
+    left:15px;
+
+}
+
+div#chenXiaoxin.bubble {
+
+    top:250px;
+
+    left:810px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chenXiaoxin2.png);
+
+}
+
+div#chenXiaoxin.bubble div.name {
+
+    right:20px;
+
+    top:15px;
+
+}
+
+div#chenWeihua.bubble {
+
+    top:700px;
+
+    left:440px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_medium.png);
+
+}
+
+div#dongXiaoguo.bubble {
+
+    top:690px;
+
+    left:340px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#dongWei.bubble {
+
+    top:850px;
+
+    left:460px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_small.png);
+
+}
+
+div#chenWeilan.bubble {
+
+    top:600px;
+
+    left:200px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_medium.png);
+
+}
+
+div#chenXinhua.bubble {
+
+    top:500px;
+
+    left:140px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chenXinhua2.png);
+
+}
+
+div#chenXinhua.bubble div.name {
+
+    left:15px;
+
+    top:20px;
+
+}
+
+div#chenChen.bubble {
+
+    top:700px;
+
+    left:100px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_small.png);
+
+}
+
+div#chenFang.bubble {
+
+    top:220px;
+
+    left:200px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_medium.png);
+
+}
+
+div#songZhenzhenEx.bubble {
+
+    top:320px;
+
+    left:150px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#jiaFangci.bubble {
+
+    top:160px;
+
+    left:290px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#songRenqiong.bubble {
+
+    top:355px;
+
+    left:355px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/song_elder1.png);
+
+}
+
+div#songRenqiong.bubble div.name {
+
+    left:25px;
+
+    top:70px;
+
+}
+
+div#zhongYuelin.bubble {
+
+    top:520px;
+
+    left:340px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/zhongYuelin1.png);
+
+    z-index:99999;
+
+}
+
+div#zhongYuelin.bubble div.name {
+
+    top:25px;
+
+}
+
+div#songQin.bubble {
+
+    top:120px;
+
+    left:490px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/songQin.png);
+
+}
+
+div#huangDesheng.bubble {
+
+    top:160px;
+
+    left:590px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#huangDesheng.bubble div.name {
+
+    top:30px;
+
+}
+
+div#huangHaixin.bubble {
+
+    top:30px;
+
+    left:620px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/huangHaixin.png);
+
+}
+
+div#huangHaixin.bubble div.name {
+
+    top:20px;
+
+}
+
+div#huangHaitao.bubble {
+
+    top:-10px;
+
+    left:500px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/huangHaitao2.png);
+
+}
+
+div#songXiaoping.bubble {
+
+    top:250px;
+
+    left:690px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/song_small.png);
+
+}
+
+div#wangTianxi.bubble {
+
+    top:330px;
+
+    left:720px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#wangTianxi.bubble div.name {
+
+    top:40px;
+
+}
+
+div#songKehuang.bubble {
+
+    top:460px;
+
+    left:740px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/songKehuang.png);
+
+}
+
+div#songKehuang.bubble div.name {
+
+    top:25px;
+
+    left:20px;
+
+}
+
+div#caoXiaochun.bubble {
+
+    top:565px;
+
+    left:710px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/caoXiaochun3.png);
+
+}
+
+div#caoXiaochun.bubble div.name {
+
+    top:25px;
+
+}
+
+div#suYan.bubble {
+
+    top:420px;
+
+    left:850px;
+
+}
+
+div#millerSong.bubble {
+
+    top:480px;
+
+    left:880px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/millerSong2.png);
+
+}
+
+div#millerSong.bubble div.name {
+
+    top:20px;
+
+    left:18px;
+
+}
+
+div#songBinbin.bubble {
+
+    top:670px;
+
+    left:600px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/songBinbin2.png);
+
+}
+
+div#songBinbin.bubble div.name {
+
+    right:30px;
+
+    top:12px;
+
+}
+
+div#jinJiansheng.bubble {
+
+    top:730px;
+
+    left:510px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#jinYan.bubble {
+
+    top:760px;
+
+    left:730px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/song_small.png);
+
+}
+
+div#songYunfei.bubble {
+
+    top:740px;
+
+    left:365px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/song_small.png);
+
+}
+
+div#guanNanfang.bubble {
+
+    top:710px;
+
+    left:270px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#guanChen.bubble {
+
+    top:860px;
+
+    left:340px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/song_small.png);
+
+}
+
+div#songZhenzhen.bubble {
+
+    top:610px;
+
+    left:160px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/song_small.png);
+
+}
+
+div#chenFangEx.bubble {
+
+    top:530px;
+
+    left:110px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#songJingbo.bubble {
+
+    top:340px;
+
+    left:110px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/songJingbo1.png);
+
+}
+
+div#songZhaozhao.bubble {
+
+    top:190px;
+
+    left:210px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/songZhaozhao.png);
+
+}
+
+div#songZhaozhao.bubble div.name {
+
+    top:25px;
+
+}
+
+div#alanLeeKnaus.bubble {
+
+    top:130px;
+
+    left:290px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#alanLeeKnaus.bubble div.name {
+
+    top:30px;
+
+}
+
+div#boYibo.bubble {
+
+    top:355px;
+
+    left:355px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_elder.png);
+
+}
+
+div#boYibo.bubble div.name {
+
+    left:20px;
+
+    top:80px;
+
+}
+
+div#huMing.bubble {
+
+    top:520px;
+
+    left:340px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+    z-index:99999;
+
+}
+
+div#boXiying.bubble {
+
+    top:500px;
+
+    left:690px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_medium.png);
+
+}
+
+div#zhengYaowen.bubble {
+
+    top:590px;
+
+    left:640px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#boJieying.bubble {
+
+    top:700px;
+
+    left:490px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_medium.png);
+
+}
+
+div#boXiyong.bubble {   
+
+    top:670px;
+
+    left:280px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_medium.png);
+
+}
+
+div#boXilai.bubble {    
+
+    top:180px;
+
+    left:580px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/boXilai3.png);
+
+}
+
+div#liDanyu.bubble {
+
+    top:140px;
+
+    left:490px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#liDanyu.bubble div.name {
+
+    top:20px;
+
+} 
+
+div#guKailai.bubble {
+
+    top:290px;
+
+    left:660px;
+
+    z-index:6;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/guKailai3.png);
+
+}
+
+div#boGuagua.bubble {
+
+    top:160px;
+
+    left:760px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/boGuagua3.png);
+
+}
+
+div#liWangzhi.bubble {
+
+    top:40px;
+
+    left:630px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_medium.png);
+
+}
+
+
+
+div#brendaChen.bubble {
+
+    top:10px;
+
+    left:530px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#boXining.bubble {
+
+    top:150px;
+
+    left:300px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_medium.png);
+
+}
+
+div#boXicheng.bubble {
+
+    top:300px;
+
+    left:150px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_medium.png);
+
+}
+
+div#boXiaoying.bubble {
+
+    top:520px;
+
+    left:140px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_medium.png);
+
+}
+
+div#pengZhen.bubble {
+
+    top:355px;
+
+    left:355px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/peng_elder.png);
+
+}
+
+div#pengZhen.bubble div.name {
+
+    top:70px;
+
+    left:40px;
+
+}
+
+div#zhangJieqing.bubble {
+
+    top:520px;
+
+    left:340px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+    z-index:99999;
+
+}
+
+div#fuRui.bubble {
+
+    top:180px;
+
+    left:580px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/peng_bubble.png);
+
+}
+
+div#fuYan.bubble {
+
+    top:620px;
+
+    left:580px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/peng_bubble.png);
+
+}
+
+div#zhouYuanyuan.bubble {
+
+    top:510px;
+
+    left:660px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_bubble.png);
+
+}
+
+div#fuYang.bubble {
+
+    top:620px;
+
+    left:220px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/peng_bubble.png);
+
+}
+
+div#fuLiang.bubble {
+
+    top:180px;
+
+    left:220px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/peng_bubble.png);
+
+}
+
+div#wangZhen.bubble {
+
+    top:365px;
+
+    left:365px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_elder.png);
+
+}
+
+div#wangZhen.bubble div.name {
+
+    top:35px;
+
+    left:40px;
+
+}
+
+div#wangJiqing.bubble {
+
+    top:500px;
+
+    left:360px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+    z-index:99999;
+
+}
+
+div#wangBing.bubble {
+
+    top:660px;
+
+    left:420px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_bubble.png);
+
+}
+
+div#wangAnyan.bubble {
+
+    top:650px;
+
+    left:310px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#wangJingyang.bubble {
+
+    top:830px;
+
+    left:435px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_small.png);
+
+}
+
+div#yeJingzi.bubble {
+
+    top:810px;
+
+    left:540px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#wangJun.bubble {
+
+    top:260px;
+
+    left:620px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wangJun2.png);
+
+}
+
+div#yeWenshan.bubble {
+
+    top:390px;
+
+    left:670px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#wangJingjing.bubble {
+
+    top:170px;
+
+    left:730px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_small.png);
+
+}
+
+div#wangJixiang.bubble {
+
+    top:60px;
+
+    left:730px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_tiny.png);
+
+}
+
+div#dannyWong.bubble {
+
+    top:200px;
+
+    left:850px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_tiny.png);
+
+}
+
+div#wangZhi.bubble {
+
+    top:260px;
+
+    left:180px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wangZhi1.png);
+
+}
+
+div#wangJingchuan.bubble {
+
+    top:150px;
+
+    left:140px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_small.png);
+
+}
+
+div#wangJingchen.bubble {
+
+    top:250px;
+
+    left:60px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_small.png);
+
+}
+
+div#liXiannian.bubble {
+
+    top:355px;
+
+    left:355px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/li2_elder.png);
+
+}
+
+div#liXiannian.bubble div.name {
+
+    top:70px;
+
+    left:30px;
+
+}
+
+div#linJiamei.bubble {
+
+    top:520px;
+
+    left:340px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/linJiamei1.png);
+
+    z-index:99999;
+
+}
+
+div#linJiamei.bubble div.name {
+
+    top:20px;
+
+}
+
+div#liJin.bubble {
+
+    top:180px;
+
+    left:570px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/li2_medium.png);
+
+}
+
+div#liuShichao.bubble {
+
+    top:260px;
+
+    left:650px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#liZiyang.bubble {
+
+    top:570px;
+
+    left:650px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/li2_medium.png);
+
+}
+
+div#fanXiaofu.bubble {
+
+    top:650px;
+
+    left:570px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#fanYiwen.bubble {   
+
+    top:650px;
+
+    left:780px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/li2_small.png);
+
+}
+
+div#gaoHaining.bubble {
+
+    top:560px;
+
+    left:820px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+}
+
+div#liPing.bubble {
+
+    top:650px;
+
+    left:260px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/li2_medium.png);
+
+}
+
+div#wangLurong.bubble {
+
+    top:570px;
+
+    left:180px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#liWei.bubble {
+
+    top:760px;
+
+    left:170px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/li2_small.png);
+
+}
+
+div#liXiaolin.bubble {
+
+    top:260px;
+
+    left:180px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/liXiaolin.png);
+
+}
+
+div#liXiaolin.bubble div.name {
+
+    top:20px;
+
+    left:25px;
+
+}
+
+div#liuYazhou.bubble {
+
+    top:180px;
+
+    left:260px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_medium.png);
+
+}
+
+div#liuLinzhi.bubble {
+
+    top:180px;
+
+    left:70px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/li2_small.png);
+
+}
+
+div#yangShangkun.bubble {
+
+    top:355px;
+
+    left:355px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yang_elder1.png);
+
+}
+
+div#yangShangkun.bubble div.name.left {
+
+    left:20px;
+
+    top:80px;
+
+}
+
+div#liBozhao.bubble {
+
+    top:520px;
+
+    left:340px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_small.png);
+
+    z-index:99999;
+
+}
+
+div#yangShaojing.bubble {
+
+    top:200px;
+
+    left:600px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yang_bubble.png);
+
+}
+
+div#zhangMeide.bubble {
+
+    top:310px;
+
+    left:665px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/inlaw_bubble.png);
+
+}
+
+div#yangYang.bubble {
+
+    top:90px;
+
+    left:690px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yang_small.png);
+
+}
+
+div#yangJiao.bubble {
+
+    top:180px;
+
+    left:770px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yang_small.png);
+
+}
+
+div#yangShaoming.bubble {
+
+    top:680px;
+
+    left:400px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yangShaoming1.png);
+
+}
+
+div#yangLi.bubble {
+
+    top:200px;
+
+    left:200px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yang_bubble.png);
+
+}
+
+div#wangXiaochao.bubble {
+
+    top:320px;
+
+    left:130px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wangXiaochao.png);
+
+}
+
+div#wangLiangmei.bubble {
+
+    top:110px;
+
+    left:130px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yang_small.png);
+
+}
+
+
+
+#canvas_container {
+
+    width: 960px;
+
+        height:960px;
+
+        cursor:default;
+
+        z-index:1;
+
+}
+
+div#dengXiaoping2.bubble {
+
+    top:120px;
+
+    left:0px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/deng_elder_small.png);
+
+}
+
+div#boYibo2.bubble{
+
+    top:120px;
+
+    left:245px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/bo_elder_small.png);
+
+}
+
+div#chenYun2.bubble {
+
+    top:120px;
+
+    left:490px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/chen_elder_small.png);
+
+}
+
+div#songRenqiong2.bubble {
+
+    top:120px;
+
+    left:735px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/song_elder_small.png);
+
+}
+
+div#pengZhen2.bubble {
+
+    top:470px;
+
+    left:0px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/peng_elder_small.png);
+
+}
+
+div#wangZhen2.bubble {
+
+    top:470px;
+
+    left:245px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/wang_elder_small.png);
+
+}
+
+div#liXiannian2.bubble {
+
+    top:470px;
+
+    left:490px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/li_elder_small.png);
+
+}
+
+div#yangShangkun2.bubble {
+
+    top:470px;
+
+    left:735px;
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/yang_elder_small.png);
+
+}
+
+#patriarchContainer div.bubble.elder{
+
+    width:225px;
+
+    background-repeat: no-repeat;
+
+    background-position:center top; 
+
+}
+
+#patriarchContainer div.bubble div.blurb{
+
+    padding-right:15px;
+
+    position:relative;
+
+    top:180px;
+
+    font-family:"arial", sans-serif;
+
+    font-size: .8em;
+
+    padding-left: 5px;
+
+    padding-top: 5px;
+
+    padding-bottom: 5px;
+
+}
+
+div#patsRowTwo div.bubble div.blurb{
+
+    height:200px;
+
+}
+
+#patriarchContainer div.bubble div.blurb h3{
+
+    margin-bottom:10px;
+
+}
+
+#patriarchContainer div.bubble:not(:last-of-type) div.blurb{
+
+    border-right:1px solid #aaa;
+
+}
+
+.backToPats {
+
+    font-family:arial,sans-serif;
+
+    font-size:18px;
+
+    color:#808285;
+
+    margin-top:20px;
+
+    width:200px;
+
+    text-decoration:underline;
+
+    cursor:pointer;
+
+}
+
+.backArrow {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/arrowBack.png);
+
+    float:left;
+
+    width:29px;
+
+    height:20px;
+
+    margin-right:8px;
+
+}
+
+.trendBarsContainer {
+
+    width:960px;
+
+    border-top:2px solid #BCBEC0;
+
+}
+
+.barHead {
+
+    color: #333333;
+
+    display: block;
+
+    font-family: arial,sans-serif;
+
+    font-size: 21px;
+
+    position:relative;
+
+    top:10px;
+
+    width: 960px;
+
+}
+
+div.trendsLabel {
+
+    font-family:arial,sans-serif;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    color:#333333;
+
+    float:right;
+
+    position:relative;
+
+    right:25px;
+
+    top:-25px;
+
+}
+
+div#execBar div.barHead {
+
+    top:5px;
+
+}
+
+div#govPartyBar div.barHead {
+
+    top:5px;
+
+}
+
+div#offshoreBar div.barHead {
+
+    top:5px;
+
+}
+
+div#militaryBar div.barHead {
+
+    top:5px;
+
+}
+
+.barFootnote {
+
+    font-size:12px;
+
+    color:#666666;
+
+    margin-top:5px;
+
+    width:750px;
+
+    clear:left;
+
+}
+
+#eduBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/education4.png);  
+
+    height:161px;
+
+}
+
+#usTiesBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/usTies3.png); 
+
+    height:138px;   
+
+}
+
+#execBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/execs2.png);      
+
+    height:162px;
+
+}
+
+#soeExecBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/soeExecs3.png);
+
+    height:134px;   
+
+}
+
+#govPartyBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/gov_party2.png);
+
+    height:136px;
+
+}
+
+#offshoreBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/offshore3.png);
+
+    height:133px;
+
+}
+
+#militaryBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/military2.png);
+
+    height:145px;
+
+}
+
+#financeBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/finance3.png);    
+
+    height:139px;   
+
+}
+
+#techBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/tech2.png);
+
+    height:118px;
+
+}
+
+#reBar {
+
+    background-image:url(http://go.bloomberg.com/multimedia/files/2012/12/realEstate3.png);
+
+    height:128px;
+
+}
+
+.teaserContainer {
+
+    font-family:arial,sans-serif;
+
+    color:#333333;
+
+    font-size:14px;
+
+}
+
+div.teaserContainer div#exploreTeaser {
+
+    background-color:#FF6600;
+
+    color:#ffffff;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    text-transform:uppercase;
+
+    padding:5px;
+
+    margin-bottom:10px;
+
+    float:left;
+
+    width:80px;
+
+}
+
+div.teaserContainer div#clickInstructions {
+
+    padding-left:95px;
+
+    padding-top:5px;
+
+}
+
+#downArrow {
+
+    float:right;
+
+    margin-top:5px;
+
+    margin-left:5px;
+
+}
+
+</style>
+
+    <script src="./Mapping China's Red Nobility - Bloomberg_files/jquery.min.js" type="text/javascript"></script>
+
+    <script src="./Mapping China's Red Nobility - Bloomberg_files/raphael.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+    var colors = {wang:"#853C35", li: "#DD5350", peng:"#ED8625", deng:"#F5B619", song: "#838830", bo:"#4B89A2", yang: "#3A6381", chen: "#6E608B"};
+
+    var canvas;
+
+    var lines = [];
+
+    var hoverLines = [];
+
+    var clans = {};
+
+    var familyMembers = [];
+
+    var labels = {};
+
+    var labelSize = 16;
+
+    var labelColor = "#ffffff";
+
+    var activeOpacity = 1;
+
+    var inactiveOpacity = 0.2;
+
+    var nodeRadius = 7.1;
+
+    var tooltips = {};
+
+    tooltips["people"] = [];
+
+    tooltips["connections"] = [];
+
+    var loader = setInterval(function(){
+
+        if($("div.contentContainer#loaderContainer span span").text().length >= 3){
+
+            $("div.contentContainer#loaderContainer span span").text("");
+
+        } else {
+
+            $("div.contentContainer#loaderContainer span span").append(".");
+
+        }
+
+    }, 500);
+
+    var photoCredits = {
+
+        deng:"Deng Xiaoping: AFP/Getty Images; Zhuo Lin: AP Photo/Xinhua, Liu Jiansheng; Deng Lin: Qianxingqiang - ImagineChina; Deng Pufang: Chen Jian - ImagineChina; Deng Nan: ImagineChina; Deng Rong: Qianxingqiang - ImagineChina; He Ping: Jiang Ren - ImagineChina",
+
+        
+
+        bo:"Bo Yibo: EyePress; Bo Xilai: Natalie Behring/Bloomberg; Gu Kailai: EyePress; Bo Guagua: EyePress",
+
+        
+
+        chen:"Chen Yun: AFP/Getty Images; Yu Ruomu: AP Photo/Xinhua, Fan Rujun; Chen Yuan: Nelson Ching/Bloomberg; Chen Xiaoxin: Ji Guoqiang - ImagineChina; Chen Xiaodan: EyePress; Chen Xinhua: Wang Xiaodong - ImagineChina",
+
+        
+
+        song:"Song Binbin: Keystone/Getty Images; Song Jingbo: Wu Jun - ImagineChina; All other family members: Family photos via Miller Song",
+
+        
+
+        peng:"Peng Zhen: AP Photo/Neal Ulevich",
+
+        
+
+        wang:"Wang Zhen: AFP/Getty Images; Wang Zhi: Wu Linqi - ImagineChina; Wang Jun: Lucas Schifres/Bloomberg",
+
+        
+
+        li:"Li Xiannian: Keystone/Getty Images; Lin Jiamei: Li Shugui - ImagineChina; Li Xiaolin: ImagineChina",
+
+        
+
+        yang:"Yang Shangkun: AFP/Getty Images; Yang Shaoming: Zhang Suoqing - ImagineChina; Wang Xiaochao: Ren Yuming - ImagineChina"
+
+    };
+
+    
+
+    $(document).ready(function(){
+
+        //$('div.contentContainer').hide();
+
+        $('#familyForm').change(function(){ //use change event to register any time a form element changes
+
+            $('div.clanContainer').hide(); //hide all divs before selecting which one to show
+
+            var selectedClan = $(this).val(); //retrieves value attribute of selected option
+
+            $('div#' + selectedClan + '_clan').show();
+
+            $('div#familyTreeContainer div.photoCredit').html('<p>PHOTOS ' + photoCredits[selectedClan] + '</p>');
+
+            if (selectedClan == 'wang') {
+
+                $('#familyTreeBackground').hide();
+
+                $('#familyTreeBackground2').show();
+
+            }
+
+            else if (selectedClan == 'deng') {
+
+                $('#familyTreeBackground').hide();
+
+                $('#familyTreeBackground2').show();
+
+            }
+
+            else {
+
+                $('#familyTreeBackground2').hide();
+
+                $('#familyTreeBackground').show();          
+
+            }
+
+        });
+
+        
+
+        $('#connectNav').click(viewConnections);
+
+        $('#patNav').click(viewPatriarchs);
+
+        $('#familyTreeNav').click(viewTrees);
+
+        $('#trendsNav').click(viewTrends);
+
+        
+
+        $('.backToPats').click(viewPatriarchs);
+
+        $('.backToPats').on("mouseenter", function(){
+
+            $(this).css("color","#414042");
+
+            $('.backArrow').css("background-image","http://go.bloomberg.com/multimedia/files/2012/12/arrowBack_dark.png");
+
+        });
+
+        $('.backToPats').on("mouseleave", function(){
+
+            $(this).css("color","#808285");
+
+            $('.backArrow').css("background-image","http://wordpress.bloomberg.com/multimedia/files/2012/12/arrowBack.png");
+
+        });
+
+    
+
+        function viewConnections(){
+
+            $('div.contentContainer').hide();
+
+            $('div#connectContainer').show();
+
+            $(".mainNavLinks.active").removeClass("active");
+
+            $('#connectNav').addClass("active");
+
+        }
+
+        function viewTrees(){
+
+            if($('div#patriarchContainer').is(':visible')){
+
+                $("#patriarchContainer div.bubble.elder[clan='" + $('#familyForm').val() + "']").click();
+
+            } else {
+
+                $('#familyForm').change();
+
+                $('div.contentContainer').hide();
+
+                $('div#familyTreeContainer').show();
+
+                $(".mainNavLinks.active").removeClass("active");
+
+                $('#familyTreeNav').addClass("active");
+
+            }
+
+        }
+
+        function viewTrends(){
+
+            $('div.contentContainer').hide();
+
+            $('div#trendsContainer').show();
+
+            $(".mainNavLinks.active").removeClass("active");
+
+            $('#trendsNav').addClass("active");
+
+        }
+
+        function viewPatriarchs(){
+
+            if($('div#familyTreeContainer').is(":visible")){
+
+                var $myPat = $("#patriarchContainer div.bubble.elder[clan='" + $("#familyForm").val() +"']");
+
+                $("#patriarchContainer div.bubble.elder:not([clan='" + $("#familyForm").val() +"'])").hide();
+
+                $myPat.show();
+
+                $myPat.css({top:530, left:400});
+
+                var resetTop, resetLeft;
+
+                if($myPat.parent().is("#patsRowOne")){
+
+                    resetTop = 120;
+
+                } else {
+
+                    resetTop = 470;
+
+                }
+
+                if($myPat.is(":nth-child(1)")){
+
+                    resetLeft = 0;
+
+                } else if($myPat.is(":nth-child(2)")){
+
+                    resetLeft = 245;
+
+                } else if($myPat.is(":nth-child(3)")){
+
+                    resetLeft = 490;
+
+                } else {
+
+                    resetLeft = 735;
+
+                }
+
+                $('div.contentContainer').hide();
+
+                $('div#patriarchContainer').show();
+
+                $myPat.animate({left:resetLeft}).animate({top:resetTop}, function(){
+
+                    $("#patriarchContainer div.bubble.elder").css({top:"", left:""});
+
+                    $("#patriarchContainer div.bubble.elder").not($myPat).fadeIn(200);
+
+                    $("#patriarchContainer div.bubble.elder div.blurb").fadeIn(200);
+
+                    $(".mainNavLinks.active").removeClass("active");
+
+                    $('#patNav').addClass("active");
+
+                });
+
+            } else {
+
+                $("#patriarchContainer div.bubble.elder").show();
+
+                $("#patriarchContainer div.bubble.elder").removeAttr("style");
+
+                $("#patriarchContainer div.bubble.elder div.blurb").removeAttr("style");
+
+                $('div.contentContainer').hide();
+
+                $('div#patriarchContainer').show();
+
+                $(".mainNavLinks.active").removeClass("active");
+
+                $('#patNav').addClass("active");
+
+            }
+
+        }
+
+        
+
+        $("body").append('<div class="tooltip"></div>');
+
+        $("body [tooltip]").on("mouseenter", toolTipper);
+
+        $("body [tooltip]").on("mouseleave", hideTooltip);
+
+        $("body [tooltip]").on("mousemove", mouseMover);
+
+        $("#canvas_container").on("mousemove", mouseMover);
+
+        
+
+        //RAPHAEL CODE HERE
+
+        canvas = new Raphael('canvas_container', 960, 960);
+
+
+
+        //draw each line, define which clans are connected, define which family members involved
+
+        drawLine([370.5,688.5],[401.5,505.5],[323.5,342.5],[187.209,269.646],"yang", "song", "xiaochao_kehuang","Wang Xiaochao","Song Kehuang","Song's son Kehuang headed Bright Future,<br/>a real-estate investment company that listed<br/>partners including Poly Group, which was<br/>run by Deng's son-in-law He Ping and Yang's<br/>son-in-law Wang Xiaochao.");
+
+        drawLine([618,119],[594.349,157.824],[388.697,613.634],[367.584,696.727],"wang", "song", "jingjing_kehuang","Wang Jingjing","Song Kehuang","Wang's granddaughter Jingjing and Song's son Kehuang<br/>were directors of Nanhai Group at different times.");
+
+        drawLine([551.882,706.619],[524.487,588.005],[421.8539999999999,563.771],[367.58399999999995,696.726],"song", "deng", "kehuang_ping","Song Kehuang","He Ping","Song's son Kehuang headed Bright Future,<br/>a real-estate investment company that listed<br/>partners including Poly Group, which was<br/>run by Deng's son-in-law He Ping and Yang's<br/>son-in-law Wang Xiaochao.");
+
+        drawLine([550.899,709.413],[538.899,560.126],[315.488,296.78000000000003],[187.209,269.646],"yang","deng","xiaochao_ping","Wang Xiaochao","He Ping","Yang's son-in-law Wang Xiaochao<br/>is a senior executive at Poly Group,<br/>founded by Deng's son-in-law He Ping.");
+
+        drawLine([613.564,684.591],[524.487,441.182],[352.797,272.529],[201.168,246.511], "yang","deng","li_rong","Yang Li","Deng Rong","Deng's daughter Rong is a vice chairwoman<br/>of the China Association for International<br/>Friendly Contact, where Yang's children<br/>Li and Shaoming have worked.");
+
+
+
+        drawLine([618.771,119.725],[564.692,269.369],[716.699,505.19899999999996],[761.0369999999999,538.7909999999999], "wang","peng","jingjing_liang","Wang Jingjing","Fu Liang","Peng's son Fu Liang held shares in Nanhai Group,<br/>where Wang's granddaughter Jingjing was a director.");
+
+    
+
+        drawLine([618.771,119.725],[564.086,229.758],[312.796,269.348],[199.709,246.191], "wang","yang","jingjing_li","Wang Jingjing","Yang Li","Yang's daughter Yang Li and Wang's<br/>granddaughter Wang Jingjing formed<br/>Going Asial Ltd. in Hong Kong in 1993.");
+
+        
+
+        drawLine([342.285,108.991],[443.24100000000004,355.933],[367.584,696.726],[367.584,696.726], "chen","song","wei_kehuang","Dong Wei","Song Kehuang","Song's son Kehuang headed Bright Future,<br/>a real-estate investment company that listed<br/>partners including Kunlun Trust, linking<br/>him to Chen's grandson Dong Wei.");
+
+        drawLine([342.285,108.991],[442.51300000000003,384.462],[207.54700000000003,543.15],[200.36100000000002,547.841],
+
+             "chen","bo","wei_xicheng","Dong Wei","Bo Xicheng","Bo's son Xicheng was an independent director<br/>of Golden Harbor Trust, where Chen's grandson<br/>Dong Wei was an executive.");
+
+        drawLine([320.708,108.991],[420.755,381.485],[234.22200000000004,492.24399999999997],[189.32200000000003,514.694],
+
+            "chen","bo","fang_xilai","Chen Fang","Bo Xilai","The investment company of Chen's son<br/>Fang signed a $4.8 billion financing deal<br/>in Chongqing in 2009 when Bo's son Xilai<br/>was running the city.");
+
+        drawLine([298.051,99.282],[398.27,364.109],[189.48,487.509],[153.588,498.162],"chen","bo","xiaodan_guagua","Chen Xiaodan","Bo Guagua","Bo's grandson Guagua and<br/>Chen's granddaughter Xiaodan<br/>vacationed together in Tibet.");
+
+        drawLine([322.576,115.711],[423.822,357.978],[331.593,677.847],[331.593,677.847],"chen","song","fang_zhenzhen","Chen Fang","Song Zhenzhen","Song's daughter Zhenzhen was<br/>married to Chen's son Fang.");
+
+        drawLine([356.379,99.169],[477.991,337.536],[367.584,696.726],[367.584,696.726],"chen","song","yuan_kehuang","Chen Yuan","Song Kehuang","Song's son Kehuang headed Bright Future,<br/>a real-estate investment company that listed<br/>partners including China Development Bank,<br/>run by Chen's son Yuan. Kehuang and Yuan<br/>went to school together.");
+
+        drawLine([376.565,96.034],[482.356,335.808],[727.114,288.155],[769.2,276.692],"chen","li","fang_xiaolin","Sun Fang","Li Xiaolin","Chen's son-in-law Sun Fang chaired the Foundation<br/>for Globalization Cooperation that co-organized<br/>a forum at Harvard Kennedy School of Government<br/>in June with the Chinese People's Association for<br/>Friendship with Foreign Countries, headed by Li's<br/>daughter Xiaolin.");
+
+        drawLine([196.324,549.798],[335.041,501.979],[782.678,299.746],[782.678,299.746],"li","bo","ziyang_xicheng","Li Ziyang","Bo Xicheng","Bo's son Xicheng sent a wreath to<br/>the funeral of Li's daughter Ziyang,<br/>who passed away in November.");
+
+        drawLine([202.306,548.327],[400.994,483.157],[384.95500000000004,605.085],[367.584,696.726],"bo","song","xicheng_kehuang","Bo Xicheng","Song Kehuang","Song's son Kehuang and Bo's son Xicheng were<br/>deputy heads of a poverty-alleviation association.");
+
+        drawLine([561.954,101.417],[463.290,353.992],[568.211,758.597],[551.645,707.646],"wang","deng","jun_ping","Wang Jun","He Ping","Wang's son Jun founded Poly Group<br/>with Deng's son-in-law He Ping.");
+
+        drawLine([561.456,98.879],[535.827,196.715],[278.052,526.454],[200.910,547.659],"wang","bo","jun_xicheng","Wang Jun","Bo Xicheng","Bo's son Xicheng served as an independent<br/>director at a unit of Citic Group, which was<br/>headed by Wang's son Jun.");
+
+        drawLine([562.166,99.234],[551.702,210.319],[536.673,591.539],[580.388,696.692],"wang","deng","jun_zhifang","Wang Jun","Deng Zhifang","Deng's son Zhifang was a senior executive<br/>at Citic Group, headed by Wang's son Jun.");
+
+        drawLine([563.229,98.169],[471.192,207.395],[247.402,254.429],[200.946,246.062],"wang","yang","jun_li","Wang Jun","Yang Li","Yang's daughter Li is honorary chairman<br/>of a company partly owned by Citic Group,<br/>which was run by Wang's son Jun.");
+
+        drawLine([562.31,96.724],[468.024,270.527],[261.389,292.117],[188.796,271.983],"wang","yang","jun_xiaochao","Wang Jun","Wang Xiaochao","Wang's son Jun co-founded Poly Group,<br/>where Yang's son-in-law Wang Xiaochao<br/>remains a senior executive.");
+
+        drawLine([561.954,101.417],[614.529,428.912],[687.541,480.901],[756.145,535.425],"wang","peng","jun_liang","Wang Jun","Fu Liang","Peng's son Fu Liang was an<br/>independent director of a unit<br/>of Citic Group, which was<br/>headed by Wang's son Jun.");
+
+        drawLine([367.584,696.727],[457.118,439.859],[650.466,469.221],[757.2860000000001,535.805],"song","peng","kehuang_liang","Song Kehuang","Fu Liang","Peng's son Fu Liang held shares in Nanhai Group,<br/>where Song's son Kehuang had been a director.");
+
+        drawLine([185.351,516.804],[501.259,327.01599999999996],[712.726,531.727],[750.927,557.954],"bo","peng","xilai_yang","Bo Xilai","Fu Yang","Bo's son Xilai ordered the arrest of<br/>a lawyer in Kangda Law Firm, whose<br/>chief partner was Peng's son Fu Yang.");
+
+    
+
+        //draw outer rim clan by clan
+
+        clans["wang"] = canvas.path("M 701.511 179.292 C 644.4069999999999 120.499 564.505 83.96900000000001 476.072 83.96900000000001 C 474.063 83.96900000000001 472.06 83.98800000000001 470.06 84.025 V 37.422 C 472.062 37.388 474.06600000000003 37.373 476.072 37.373 C 577.375 37.373 668.927 79.118 734.467 146.346 L 701.511 179.292 Z");
+
+        clans["wang"].attr({stroke:colors["wang"], fill:colors["wang"], "stroke-width":"0", "fill-opacity":1});
+
+            
+
+        clans["li"] = canvas.path("M 789.974 412.988 C 790.201 408.09 790.316 403.165 790.316 398.212 C 790.316 314.211 757.355 237.908 703.6650000000001 181.53 L 736.7830000000001 148.744 C 798.8060000000002 213.546 836.9100000000001 301.43100000000004 836.9100000000001 398.212 C 836.9100000000001 403.168 836.8120000000001 408.09999999999997 836.613 413.007 L 789.974 412.988 Z");
+
+            clans["li"].attr({stroke:colors["li"], fill:colors["li"], "stroke-width":"0", "fill-opacity":1});
+
+            
+
+        clans["peng"] = canvas.path("M 687.028 631.126 C 746.264 577.4399999999999 784.9300000000001 501.472 789.796 416.44599999999997 L 836.46 416.43199999999996 C 831.597 514.221 787.806 601.7579999999999 720.267 663.872 L 687.028 631.126 Z");
+
+            clans["peng"].attr({stroke:colors["peng"], fill:colors["peng"], "stroke-width":"0", "fill-opacity":1});
+
+            
+
+        clans["deng"] = canvas.path("M 470.552 712.411 C 472.38800000000003 712.4409999999999 474.228 712.458 476.072 712.458 C 556.062 712.458 629.072 682.5699999999999 684.5450000000001 633.353 L 717.2860000000001 666.5859999999999 C 653.365 724.0749999999999 568.8050000000001 759.0549999999998 476.07200000000006 759.0549999999998 C 474.06700000000006 759.0549999999998 472.0640000000001 759.0369999999998 470.06600000000003 759.0049999999999 L 470.552 712.411 Z");
+
+            clans["deng"].attr({stroke:colors["deng"], fill:colors["deng"], "stroke-width":"0", "fill-opacity":1});                 
+
+            
+
+        clans["song"] = canvas.path("M 259.635 626.041 C 313.79499999999996 677.5110000000001 386.293 709.869 466.318 712.3100000000001 L 466.476 758.9280000000001 C 373.484 756.5010000000001 289.251 718.892 226.597 658.9230000000001 L 259.635 626.041 Z");
+
+            clans["song"].attr({stroke:colors["song"], fill:colors["song"], "stroke-width":"0", "fill-opacity":1});
+
+            
+
+        clans["bo"] = canvas.path("M 162.356 416.603 C 167.033 497.689 202.456 570.53 257.14300000000003 623.646 L 223.94500000000002 656.358 C 160.958 594.828 120.4 510.437 115.691 416.595 L 162.356 416.603 Z");
+
+            clans["bo"].attr({stroke:colors["bo"], fill:colors["bo"], "stroke-width":"0", "fill-opacity":1});
+
+            
+
+        clans["yang"] = canvas.path("M 240.751 189.942 C 191.64100000000002 245.388 161.825 318.319 161.825 398.212 C 161.825 403.12 161.938 407.99899999999997 162.161 412.851 L 115.53 413.023 C 115.331 408.11100000000005 115.23 403.173 115.23 398.21200000000005 C 115.23 305.35800000000006 150.30200000000002 220.69700000000006 207.91899999999998 156.75400000000005 L 240.751 189.942 Z");
+
+            clans["yang"].attr({stroke:colors["yang"], fill:colors["yang"], "stroke-width":"0", "fill-opacity":1});
+
+            
+
+        clans["chen"] = canvas.path("M 466.475 84.111 C 377.9 86.769 298.534 126.08 243.032 187.395 L 210.043 154.417 C 273.931 84.742 364.833 40.24 466.157 37.506 L 466.475 84.111 Z")
+
+            clans["chen"].attr({stroke:colors["chen"], fill:colors["chen"], "stroke-width":"0", "fill-opacity":1});
+
+        
+
+         //draw nodes representing family members
+
+            drawNode(563.141,95.894,"wang","Wang Jun","Wang Jun");
+
+            drawNode(620.021,117.986,"wang","Wang Jingjing","Wang Jingjing");
+
+            drawNode(359.426,103.068,"chen","Chen Yuan","Chen Yuan");
+
+            drawNode(377.829,98.067,"chen","Sun Fang","Sun Fang");
+
+            drawNode(341.989,111.008,"chen","Dong Wei","Dong Wei");
+
+            drawNode(324.566,118.972,"chen","Chen Fang","Chen Fang");
+
+            drawNode(307.145,129.426,"chen","Chen Xiaodan","Chen Xiaodan");
+
+            drawNode(759.597,535.399,"peng","Fu Liang","Fu Liang");
+
+            drawNode(749,557.301,"peng","Fu Yang","Fu Yang");
+
+            drawNode(175.591,485.596,"bo","Bo Guagua","Bo Guagua");
+
+            drawNode(186.473,516.807,"bo","Bo Xilai","Bo Xilai");
+
+            drawNode(201.441,548.259,"bo","Bo Xicheng","Bo Xicheng");
+
+            drawNode(368.372,692.218,"song","Song Kehuang","Song Kehuang");
+
+            drawNode(331.356,676.091,"song","Song Zhenzhen","Song Zhenzhen");
+
+            drawNode(611.172,681.163,"deng","Deng Rong","Deng Rong");
+
+            drawNode(550.482,705.677,"deng","He Ping","He Ping");
+
+            drawNode(580.469,696.493,"deng","Deng Zhifang","Deng Zhifang");
+
+            drawNode(199.224,245.937,"yang","Yang Li","Yang Li");
+
+            drawNode(188.149,270.603,"yang","Wang Xiaochao","Wang Xiaochao");
+
+            drawNode(776.552,303.155,"li","Li Ziyang","Li Ziyang");
+
+            drawNode(766.1,276.273,"li","Li Xiaolin","Li Xiaolin");
+
+        
+
+        //add events to patriarchs
+
+        $("#patriarchContainer div.bubble.elder").click(selectPatriarch);
+
+        
+
+        //jquery eventListener and Raphael hover event for family member nodes  
+
+            $(familyMembers).each(function(){               
+
+                var fullname = $(this.node).attr("fullname");
+
+                var clanName = $(this.node).attr("clanName");
+
+                var connectedPeople = [];
+
+                var connectionText = connectedPeople.join("<br/>");
+
+                this.hover(function(e){
+
+                    this.attr({"cursor":"default"});
+
+                    this.attr({"fill":colors[clanName],"stroke":"#ffffff"});
+
+                    $(lines).each(function(){
+
+                        var person1 = $(this.node).attr("person1");
+
+                        var person2 = $(this.node).attr("person2");
+
+                        if($(this.node).attr("person1") == fullname){ 
+
+                            this.attr({"stroke-opacity":activeOpacity});
+
+                          this.attr({"stroke":colors[clanName]});
+
+                            connectedPeople.push(person2);
+
+                        }
+
+                        else if($(this.node).attr("person2") == fullname){
+
+                            this.attr({"stroke-opacity":activeOpacity});
+
+                          this.attr({"stroke":colors[clanName]});
+
+                            connectedPeople.push(person1);
+
+                        }
+
+                    });
+
+                    for(var i=0;i<familyMembers.length;i++){
+
+                        if(this == familyMembers[i]){
+
+                            showTooltip(e.pageX, e.pageY, "<b>"+tooltips["people"][i]+"</b> has links to<br/> "+connectedPeople.join(",<br/>"));
+
+                        }
+
+                    }
+
+                },function(){
+
+                    $(lines).each(function(){
+
+                          this.attr({"stroke-opacity":inactiveOpacity});
+
+                     });
+
+                    this.attr({"fill":"#ffffff","stroke":colors[clanName]});
+
+                    hideTooltip();
+
+                    connectedPeople = [];
+
+                });
+
+            });
+
+        
+
+/*if person1 == fullname, highlight the line and set a connected person variable to person2. else if person2 == fullname, highlight the line and set a connected person variable to person1 */
+
+        //jquery eventlistener and raphael hover event for individual lines             
+
+        $(lines).each(function() {
+
+            this.hover(function(e){
+
+                for(var i=0;i<lines.length;i++){
+
+                    if(this == lines[i]){
+
+                        showTooltip(e.pageX, e.pageY, tooltips["connections"][i]);
+
+                    }
+
+                }
+
+                this.attr({"stroke-opacity":activeOpacity});
+
+                this.attr({"cursor":"default"});
+
+                showTooltip(e.pageX, e.pageY, tooltips["connections"][eval(i)]);
+
+            },function(){
+
+                    this.attr({"stroke-opacity":inactiveOpacity});
+
+                    hideTooltip();
+
+            });
+
+        });
+
+        
+
+        $(hoverLines).each(function() {
+
+            this.hover(function(e){
+
+                for(var i=0;i<hoverLines.length;i++){
+
+                    if(this == hoverLines[i]){
+
+                        showTooltip(e.pageX, e.pageY, tooltips["connections"][i]);
+
+                        lines[i].attr({"stroke-opacity":activeOpacity});
+
+                        lines[i].attr({"cursor":"default"});
+
+                    }
+
+                }
+
+            },function(){
+
+                for(var i=0;i<hoverLines.length;i++){
+
+                    if(this == hoverLines[i]){
+
+                        lines[i].attr({"stroke-opacity":inactiveOpacity});
+
+                    }
+
+                }
+
+                hideTooltip();
+
+            });
+
+        });
+
+    
+
+        
+
+        labels["wang"] =    canvas.text(610,90,"WANG")
+
+            .attr({"font-size":labelSize,"font-family":"arial,sans-serif","font-weight":"bold","fill":labelColor, "clanName":"wang"});
+
+            (labels["wang"]).rotate(23,610,90);     
+
+        labels["li"] =  canvas.text(790,280,"LI")
+
+            .attr({"font-size":labelSize,"font-family":"arial,sans-serif","font-weight":"bold","fill":labelColor});
+
+            (labels["li"]).rotate(67,790,280);
+
+        labels["peng"] =    canvas.text(780,540,"PENG")
+
+            .attr({"font-size":labelSize,"font-family":"arial,sans-serif","font-weight":"bold","fill":labelColor}); 
+
+            (labels["peng"]).rotate(-65,780,540);   
+
+        labels["deng"] =    canvas.text(590,715,"DENG")
+
+            .attr({"font-size":labelSize,"font-family":"arial,sans-serif","font-weight":"bold","fill":labelColor}); 
+
+            (labels["deng"]).rotate(-18,590,715);
+
+        labels["song"] =    canvas.text(340,705,"SONG")
+
+            .attr({"font-size":labelSize,"font-family":"arial,sans-serif","font-weight":"bold","fill":labelColor}); 
+
+            (labels["song"]).rotate(20,340,705);
+
+        labels["bo"] =  canvas.text(160,520,"BO")
+
+            .attr({"font-size":labelSize,"font-family":"arial,sans-serif","font-weight":"bold","fill":labelColor}); 
+
+            (labels["bo"]).rotate(67,160,520);  
+
+        labels["yang"] =    canvas.text(160,280,"YANG")
+
+            .attr({"font-size":labelSize,"font-family":"arial,sans-serif","font-weight":"bold","fill":labelColor}); 
+
+            (labels["yang"]).rotate(-67,160,280);
+
+        labels["chen"] =    canvas.text(320,95,"CHEN")
+
+            .attr({"font-size":labelSize,"font-family":"arial,sans-serif","font-weight":"bold","fill":labelColor}); 
+
+            (labels["chen"]).rotate(-23,320,95);
+
+        
+
+        
+
+        //jquery eventListener and Raphael hover event for CLANS
+
+        $.each(clans, function(clanName, path){ //here clan name is the mapped name and path is the stored object
+
+            path.hover(function(e){
+
+                this.attr({"cursor":"pointer"});
+
+                $(lines).each(function(){
+
+                    if($(this.node).attr("clan1") == clanName || $(this.node).attr("clan2") == clanName){
+
+                       this.attr({"stroke-opacity":activeOpacity});
+
+                       this.attr({"stroke":colors[clanName]});
+
+                     }
+
+                 });
+
+                },function(){
+
+                 $(lines).each(function(){
+
+                      this.attr({"stroke-opacity":inactiveOpacity});
+
+                        hideTooltip();
+
+                 });
+
+                }
+
+             );
+
+             path.click(function(){
+
+                $("#familyForm").val(clanName);
+
+                $('#familyTreeNav').click();
+
+             });
+
+             labels[clanName].hover(function(e){
+
+                this.attr({"cursor":"pointer"});
+
+                $(lines).each(function(){
+
+                    if($(this.node).attr("clan1") == clanName || $(this.node).attr("clan2") == clanName){
+
+                       this.attr({"stroke-opacity":activeOpacity});
+
+                       this.attr({"stroke":colors[clanName]});
+
+                     }
+
+                 });
+
+                },function(){
+
+                 $(lines).each(function(){
+
+                      this.attr({"stroke-opacity":inactiveOpacity});
+
+                        hideTooltip();
+
+                 });
+
+                }
+
+             );
+
+             labels[clanName].click(function(){
+
+                $("#familyForm").val(clanName);
+
+                $('#familyTreeNav').click();
+
+             });
+
+        });
+
+        clearInterval(loader);
+
+        $('#connectNav').click();
+
+});
+
+
+
+function selectPatriarch(){
+
+    $("#patriarchContainer div.bubble.elder").not(this).fadeOut(500);
+
+    $("#patriarchContainer div.bubble.elder div.blurb").fadeOut(500);
+
+    $(this).delay(500).animate({left:"400"}).animate({top:"530"}, function(){
+
+        $("#familyForm").val($(this).attr("clan"));
+
+        $('#familyForm').change();
+
+        $('div.contentContainer').hide();
+
+        $('div#familyTreeContainer').show();
+
+        $(".mainNavLinks.active").removeClass("active");
+
+        $('#familyTreeNav').addClass("active");
+
+    });
+
+}
+
+function drawNode(cx,cy,clan,fullname,tooltip){
+
+    familyMembers.push(canvas.circle(cx,cy,nodeRadius));
+
+    tooltips["people"].push(tooltip);
+
+    familyMembers[familyMembers.length-1].attr({stroke: colors[clan],fill:"#ffffff","stroke-width":2,"stroke-miterlimit":10});
+
+    $(familyMembers[familyMembers.length-1].node).attr({"clanName":clan});
+
+    $(familyMembers[familyMembers.length-1].node).attr({"fullname": fullname});
+
+    
+
+};
+
+function drawLine(start,control1,control2,end,clan1,clan2,id,person1,person2,tooltip){
+
+    lines.push(canvas.path([["M",start[0],start[1]],["C",control1[0],control1[1],control2[0],control2[1],end[0],end[1]]]));
+
+    tooltips["connections"].push(tooltip);
+
+    lines[lines.length - 1].attr({stroke: colors[clan1], "stroke-width":3,"stroke-linecap":"round"});
+
+    lines[lines.length - 1].attr({"stroke-opacity":inactiveOpacity});
+
+    $(lines[lines.length - 1].node).attr("clan1", clan1);
+
+    $(lines[lines.length - 1].node).attr("clan2", clan2);
+
+    $(lines[lines.length - 1].node).attr("person1", person1);
+
+    $(lines[lines.length - 1].node).attr("person2", person2);
+
+    $(lines[lines.length - 1].node).attr("tooltip", tooltip);
+
+    /* NOW WE DRAW AN INVISIBLE LINE TWICE AS THICK TO ALSO SERVE AS HIT AREA */
+
+    hoverLines.push(canvas.path([["M",start[0],start[1]],["C",control1[0],control1[1],control2[0],control2[1],end[0],end[1]]]));
+
+    hoverLines[hoverLines.length - 1].attr({stroke: "#fff", "stroke-width":15,"stroke-linecap":"round"});
+
+    hoverLines[hoverLines.length - 1].attr({"stroke-opacity":1});
+
+    hoverLines[hoverLines.length - 1].toBack();
+
+}
+
+function showTooltip(x,y,tooltipText){
+
+    $("div.tooltip").html(tooltipText);
+
+    $("div.tooltip").addClass("mainText");
+
+    $("div.tooltip").show();
+
+}
+
+function hideTooltip(){
+
+    $(this).css("box-shadow", "");
+
+    $("div.tooltip").hide();
+
+}
+
+    function toolTipper(e){
+
+        $("div.tooltip").html($(this).attr("tooltip"));
+
+        if($("div.tooltip").width() + e.pageX + 30 < $(window).width()){
+
+            $("div.tooltip").css("left", e.pageX + 12);
+
+        } else {
+
+            $("div.tooltip").css("left", e.pageX - $("div.tooltip").width() - 20);
+
+        }       
+
+        $("div.tooltip").css("top", e.pageY + 15);
+
+        $("div.tooltip").addClass("mainText");
+
+        $(this).css("box-shadow", "2px 2px 2px #777");
+
+        $("div.tooltip").html($(this).attr("tooltip"));
+
+        $("div.tooltip").show();
+
+    }
+
+    function mouseMover(e){
+
+        $("div.tooltip").html($("div.tooltip").html());
+
+        if($("div.tooltip").width() + e.pageX + 30 < $(window).width()){
+
+            $("div.tooltip").css("left", e.pageX + 12);
+
+        } else {
+
+            $("div.tooltip").css("left", e.pageX - $("div.tooltip").width() - 20);
+
+        }
+
+        $("div.tooltip").css("top", e.pageY + 15);
+
+        $("div.tooltip").html($("div.tooltip").html());
+
+    }
+
+</script>
+
+    <div class="teaserContainer">
+
+      <div id="exploreTeaser">
+
+        <div id="downArrow"><img src="./Mapping China's Red Nobility - Bloomberg_files/downArrow_immortals.png" alt="o" width="12" height="7" /> </div>
+
+        explore </div>
+
+      <div id="clickInstructions">Prsentation 题目 .</div>
+
+    </div>
+
+    <ul id="graphicMainNav">
+
+      <li id="connectNav" class="mainNavLinks active">
+
+        <div class="navIcon"></div>
+
+        <div class="navName">CONNECTIONS</div>
+
+      </li>
+
+      <li id="patNav" class="mainNavLinks">
+
+        <div class="navIcon"></div>
+
+        <div class="navName">PATRIARCHS</div>
+
+      </li>
+
+      <li id="familyTreeNav" class="mainNavLinks">
+
+        <div class="navIcon"></div>
+
+        <div class="navName">FAMILY TREES</div>
+
+      </li>
+
+      <li id="trendsNav" class="mainNavLinks">
+
+        <div class="navIcon"></div>
+
+        <div class="navName">RELATIVE TRENDS</div>
+
+      </li>
+
+    </ul>
+
+    <div id="loaderContainer" class="contentContainer" style="display: none;"> <span>Loading<span>...</span></span> </div>
+
+    <div id="familyTreeContainer" class="contentContainer" style="display: none;">
+
+      <div id="familyTreeDropdown">
+
+        <div style="font-family:arial,sans-serif;font-size:12px;font-weight:bold;float:left;margin-right:10px;">Choose a family</div>
+
+        <form action="">
+
+          <select name="families" id="familyForm">
+
+            <option value="deng" selected="selected">Deng family</option>
+
+            <option value="chen">Chen family</option>
+
+            <option value="song">Song family</option>
+
+            <option value="peng">Peng family</option>
+
+            <option value="wang">Wang family</option>
+
+            <option value="bo">Bo family</option>
+
+            <option value="li">Li family</option>
+
+            <option value="yang">Yang family</option>
+
+          </select>
+
+        </form>
+
+      </div>
+
+      <div id="famTreeInstruct" class="mainText annotations">Hover on members of the family tree to read about them.</div>
+
+      <div id="deng_clan" class="clanContainer" style="display: none;">
+
+        <div class="header"> The Deng family </div>
+
+        <div class="introText"> Deng Xiaoping emerged as leader after Mao's death, overseeing China's economic opening. Deng famously wore a 10-gallon hat at a rodeo during a 1979 U.S. visit. Son Zhifang soon followed to America, earning a physics Ph.D. at the University of Rochester. Grandson Zhuo Di, a bridge player, used to work with U.S. law firm White &amp; Case. Another grandson, Zhuo Su, is chairman of a company invested in an Australian iron ore miner. </div>
+
+        <div class="backToPats">
+
+          <div class="backArrow"></div>
+
+          Back to patriarchs </div>
+
+        <div id="deng_bubbleContainer" class="bubbleContainer">
+
+          <div id="dengXiaoping" class="bubble deng elder extraGen hasPhoto" tooltip="Paramount leader after Mao's death&lt;br/&gt;and architect of the economic liberal-&lt;br/&gt;ization that lifted China out of poverty.&lt;br/&gt;The opening created opportunities&lt;br/&gt;for princelings to enrich themselves.">
+
+            <div class="name right"> <b>Deng<br />
+
+              Xiaoping<br />
+
+              邓小平</b> </div>
+
+          </div>
+
+          <div id="zhuoLin" class="bubble inlaw small hasPhoto" tooltip="The daughter of a Yunnan ham merchant,&lt;br/&gt;she studied physics at Peking University.&lt;br/&gt;Zhuo escaped Japanese-occupied Beijing&lt;br/&gt;to join Mao's communist forces in Yan'an.">
+
+            <div class="name right"> <b>Zhuo<br />
+
+              Lin<br />
+
+              卓琳</b><br />
+
+              Wife </div>
+
+          </div>
+
+          <div id="gaoSuning" class="bubble inlaw small" tooltip="A doctor.">
+
+            <div class="name center"> <b>Gao Suning<br />
+
+              高苏宁</b><br />
+
+              Daughter-in-law </div>
+
+          </div>
+
+          <div id="dengPufang" class="bubble deng hasPhoto" tooltip="Crippled during the Cultural Revolution, he set up&lt;br/&gt;a charity which got into business. Allegations of&lt;br/&gt;corruption by high officials' children, including him,&lt;br/&gt;were among complaints made by protesters at&lt;br/&gt;Tiananmen Square in 1989. He was vice chairman&lt;br/&gt;of the Chinese People's Political Consultative&lt;br/&gt;Conference as of 2011 and is an advocate for rights&lt;br/&gt;of the disabled.">
+
+            <div class="name left"> <b>Deng<br />
+
+              Pufang<br />
+
+              邓朴方</b><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="dengLin" class="bubble deng hasPhoto" tooltip="An artist who paints in the Chinese traditional&lt;br/&gt;style, Deng Lin toured New York, Paris, Hong Kong&lt;br/&gt;and Tokyo during the 1980s exhibiting her artwork.&lt;br/&gt;She was vice chairman of an organization that&lt;br/&gt;promotes China's foreign relations.">
+
+            <div class="name left"> <b>Deng Lin<br />
+
+              邓林</b><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="wuJianchang" class="bubble inlaw small" tooltip="An influential figure in the metals industry, he ran&lt;br/&gt;state-owned companies, was a vice minister and&lt;br/&gt;set up a subsidiary in Australia. Wu was honorary&lt;br/&gt;chairman of Oslo-listed Jinhui Shipping &amp;&lt;br/&gt;Transportation, a director of Jiangxi Copper in&lt;br/&gt;Hong Kong and headed the China Iron and&lt;br/&gt;Steel Association.">
+
+            <div class="name center"> <b>Wu Jianchang<br />
+
+              吴建常</b><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="dengZhuosu" class="bubble small deng" tooltip="Deng's 38-year old grandson, Zhuo Su,&lt;br/&gt;followed his father Wu Jianchang into the&lt;br/&gt;metals business. He headed a company&lt;br/&gt;that bought a stake in an Australian iron-ore&lt;br/&gt;business, according to filings.">
+
+            <div class="name center"> <b>Zhuo Su<br />
+
+              卓泝</b><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="dengNan" class="bubble deng hasPhoto" tooltip="Studied physics at Peking University and was&lt;br/&gt;vice minister of science and technology.">
+
+            <div class="name right"> <b>Deng<br />
+
+              Nan<br />
+
+              邓楠</b><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="zhangHong" class="bubble inlaw small" tooltip="Backed by billionaire George Soros and Archibald Cox Jr.,&lt;br/&gt;the son of the Watergate prosecutor, his company led the&lt;br/&gt;buyout in the 1990s of one of the key producers of material&lt;br/&gt;for rare-earth magnets from General Motors Co. The purchase&lt;br/&gt;of Magnequench and the subsequent closing of its U.S.&lt;br/&gt;manufacturing helped China fulfill Deng's aim of dominating&lt;br/&gt;the market for the minerals, now used in U.S. smart bombs,&lt;br/&gt;wind turbines and hybrid cars.">
+
+            <div class="name center"> <b>Zhang Hong<br />
+
+              张宏</b><br />
+
+              Ex-son-in-law </div>
+
+          </div>
+
+          <div id="dengZhuorui" class="bubble small deng" tooltip="Deng Xiaoping's eldest granddaughter&lt;br/&gt;is known as Mian Mian. She has given&lt;br/&gt;interviews about growing up with her&lt;br/&gt;grandfather.">
+
+            <div class="name center"> <b>Deng Zhuorui<br />
+
+              邓卓芮</b><br />
+
+              Granddaughter </div>
+
+          </div>
+
+          <div id="dengRong" class="bubble deng hasPhoto" tooltip="She worked for the Chinese embassy in Washington&lt;br/&gt;from 1979 to 1983. She also wrote a biography of her&lt;br/&gt;father and toured the world to promote it in the mid-&lt;br/&gt;1990s. She has met Russia's Vladimir Putin and the&lt;br/&gt;Pope as vice president of the China Association for&lt;br/&gt;International Friendly Contact. She also worked for&lt;br/&gt;a real estate developer in Shenzhen.">
+
+            <div class="name left"> <b>Deng<br />
+
+              Rong<br />
+
+              邓榕</b><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="hePing" class="bubble inlaw hasPhoto small" tooltip="A former senior army officer and an attache&lt;br/&gt;in the Washington embassy, he co-founded&lt;br/&gt;Poly Group, the arms-to-art dealing giant, with&lt;br/&gt;Wang Jun. He stepped down as chairman of a&lt;br/&gt;Hong Kong-listed Poly unit in April 2010 and&lt;br/&gt;held 22.9 million shares in the group's Hong&lt;br/&gt;Kong-listed real estate unit, as of April 29, 2008.">
+
+            <div class="name right"> <b>He Ping<br />
+
+              贺平</b><br />
+
+              Son-<br />
+
+              in-law </div>
+
+          </div>
+
+          <div id="dengZhuoyue" class="bubble small deng" tooltip="A psychology graduate of Wellesley College in&lt;br/&gt;Massachusetts, she married a Chinese venture&lt;br/&gt;capitalist. She founded a public relations company&lt;br/&gt;that says its clients include Louis Vuitton and Poly&lt;br/&gt;Group, once run by her father. She works in charity,&lt;br/&gt;hosting an annual ball attended by tycoons and&lt;br/&gt;celebrities.">
+
+            <div class="name center"> <b>Zhuo Yue<br />
+
+              卓玥</b><br />
+
+              Granddaughter </div>
+
+          </div>
+
+          <div id="fengBo" class="bubble small inlaw" tooltip="Became an early investor in China's Internet&lt;br/&gt;startups. He co-founded venture capital companies&lt;br/&gt;Chengwei Ventures, which once counted former&lt;br/&gt;Defense Secretary Donald Rumsfeld among&lt;br/&gt;investors in one of its funds, and Ceyuan, in 2004.&lt;br/&gt;He studied art at College of Marin in California.">
+
+            <div class="name center"> <b>Feng Bo<br />
+
+              冯波</b><br />
+
+              Grandson-<br />
+
+              in-law </div>
+
+          </div>
+
+          <div id="dengZhifang" class="bubble deng" tooltip="After earning a Ph.D. in physics from University&lt;br/&gt;of Rochester in New York, he worked at Citic&lt;br/&gt;and served as vice chairman of the Hong Kong-&lt;br/&gt;listed real estate company affiliated with&lt;br/&gt;one of China's biggest steelmakers. Some&lt;br/&gt;of his business partners were investigated for&lt;br/&gt;corruption two years before the death of Deng&lt;br/&gt;Xiaoping. As of this year, he still ran property&lt;br/&gt;companies.">
+
+            <div class="name center"> <b>Deng Zhifang<br />
+
+              邓质方</b><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="liuXiaoyuan" class="bubble inlaw small" tooltip="Like her husband, Deng Zhifang, she has&lt;br/&gt;a physics Ph.D. from University of Rochester.&lt;br/&gt;She went into finance, adopting the English&lt;br/&gt;first name Janet. She is vice general manager&lt;br/&gt;of Beijing Investment Consultants Inc. and has&lt;br/&gt;advised on public share sales of state-owned&lt;br/&gt;enterprises including Jiangxi Copper, where&lt;br/&gt;brother-in-law Wu Jianchang was a director.">
+
+            <div class="name center"> <b>Liu Xiaoyuan<br />
+
+              刘小元</b><br />
+
+              Daughter-in-law </div>
+
+          </div>
+
+          <div id="dengZhuodi" class="bubble small deng" tooltip="A bridge player like his grandfather, he&lt;br/&gt;graduated from Duke University Law&lt;br/&gt;School in 2008 and worked for New&lt;br/&gt;York-based law firm White &amp; Case.">
+
+            <div class="name center"> <b>Zhuo Di<br />
+
+              卓棣</b><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="fengRan" class="bubble tiny deng" tooltip="Son of Zhuo Yue and Feng Bo.">
+
+            <div class="name center"> <b>Feng Ran<br />
+
+              冯然</b><br />
+
+              Great-grandson </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="chen_clan" class="clanContainer" style="display: block;">
+
+        <div class="header">The Chen family</div>
+
+        <div class="introText">A typesetter before the war, Chen Yun was lauded by Mao for stabilizing the economy after 1949 and was an architect of economic planning. While Chen frowned on the pace of Deng's reforms, his family took to capitalism. Son Chen Yuan runs China Development Bank. Grandson Xiaoxin works in private equity, as does his sister Xiaodan, who wore an Oscar de la Renta dress at a 2006 debutante ball in Paris.</div>
+
+        <div class="backToPats" style="color: rgb(128, 130, 133);">
+
+          <div class="backArrow"></div>
+
+          Back to patriarchs </div>
+
+        <div id="chen_bubbleContainer" class="bubbleContainer">
+
+          <div id="chenYun" class="bubble chen elder hasPhoto" tooltip="One of the earliest members of the Communist Party,&lt;br/&gt;his influence rivaled Deng Xiaoping's. He ran economic&lt;br/&gt;policy in the 1980s and is famous for his description of&lt;br/&gt;China's economic reform as being like a bird in a cage.">
+
+            <div class="name right"> <b>Chen<br />
+
+              Yun<br />
+
+              陈云</b> </div>
+
+          </div>
+
+          <div id="yuRuomu" class="bubble inlaw small hasPhoto" tooltip="Joined the party at 17 and once worked as&lt;br/&gt;secretary to Chen. A nutritionist, she served&lt;br/&gt;on the board of the Chinese Nutrition Society.">
+
+            <div class="name left"> <b>Yu<br />
+
+              Ruomu<br />
+
+              于若木</b><br />
+
+              Wife </div>
+
+          </div>
+
+          <div id="chenQian" class="bubble small chen" tooltip="An adviser to an education&lt;br/&gt;foundation in Chen Yun's name.">
+
+            <div class="nameContainer">
+
+              <div class="name center"> <b>Chen Yichu<br />
+
+                陈怡初</b><br />
+
+                Granddaughter </div>
+
+            </div>
+
+          </div>
+
+          <div id="chenShuyu" class="bubble small chen" tooltip="A granddaughter Chen Yun never met&lt;br/&gt;who stood between Chen Fang and his&lt;br/&gt;wife in a 2005 family photo.">
+
+            <div class="nameContainer">
+
+              <div class="name center"> <b>Chen Shuyu<br />
+
+                陈姝羽</b><br />
+
+                Granddaughter </div>
+
+            </div>
+
+          </div>
+
+          <div id="chenWeili" class="bubble chen medium" tooltip="Co-founded China's first venture capital&lt;br/&gt;fund, China Venturetech Investment Corp.;&lt;br/&gt;set up a human resources management&lt;br/&gt;company; and was an adviser to a Hong&lt;br/&gt;Kong-based investment company. She&lt;br/&gt;sits on the board of a Tianjin-based&lt;br/&gt;shipping firm.">
+
+            <div class="name center"> <b>Chen Weili<br />
+
+              陈伟力</b><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="sunFang" class="bubble inlaw medium" tooltip="Was chairman of the Foundation for Globalization&lt;br/&gt;Cooperation, which gives an address in Paris on its&lt;br/&gt;website. He and his wife own a private Hong Kong&lt;br/&gt;company of the same name as the foundation,&lt;br/&gt;according to corporate documents in 2012. He's met&lt;br/&gt;former President George H. W. Bush, Tony Blair and&lt;br/&gt;other world leaders.">
+
+            <div class="name center"> <b>Sun Fang<br />
+
+              孙放</b><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="chenYuan" class="bubble chen medium hasPhoto" tooltip="A former vice governor of the central bank, he&lt;br/&gt;has been head of China Development Bank&lt;br/&gt;since 1998. He has expanded the state policy&lt;br/&gt;lender into commercial interests, including&lt;br/&gt;private equity. Today it is the world's biggest&lt;br/&gt;policy bank.">
+
+            <div class="name right"> <strong>Chen<br />
+
+              Yuan<br />
+
+              陈元</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="sunYuli" class="bubble inlaw medium" tooltip="She married Chen Yuan in&lt;br/&gt;Jiangxi province in 1972.">
+
+            <div class="name center"> <strong>Sun Yuli<br />
+
+              孙玉黎</strong><br />
+
+              Ex-daughter-in-law </div>
+
+          </div>
+
+          <div id="bianXiajun" class="bubble inlaw medium" tooltip="Ex-wife of Chen Yuan.">
+
+            <div class="name center"> <strong>Bian Xiajun<br />
+
+              边霞君</strong><br />
+
+              Ex-daughter-in-law </div>
+
+          </div>
+
+          <div id="tianLan" class="bubble inlaw medium" tooltip="Has appeared at public&lt;br/&gt;events with her husband.">
+
+            <div class="name center"> <strong>Tian Lan<br />
+
+              田岚</strong><br />
+
+              Daughter-in-law </div>
+
+          </div>
+
+          <div id="chenXiaoxin" class="bubble small chen hasPhoto" tooltip="Former Citigroup banker with Stanford MBA,&lt;br/&gt;was in private equity as of 2011 and was involved&lt;br/&gt;in Internet ventures. Was CFO of Oak Pacific&lt;br/&gt;Interactive, which was listed as Renren Inc. in&lt;br/&gt;the U.S., and a director of Nasdaq-listed&lt;br/&gt;Kongzhong. Was on the board of Abax Global&lt;br/&gt;Capital entities that were involved in a buyout&lt;br/&gt;financed by his father's bank.">
+
+            <div class="name right"> <strong>Chen Xiaoxin<br />
+
+              陈小欣</strong><br />
+
+              Grand-<br />
+
+              son </div>
+
+          </div>
+
+          <div id="chenXiaodan" class="bubble small chen hasPhoto" tooltip="Harvard Business School graduate and former&lt;br/&gt;Morgan Stanley banker, attended Duke University&lt;br/&gt;and Tabor Academy. Appeared on the debutante&lt;br/&gt;circuit, and photos of her with the son of disgraced&lt;br/&gt;former Chongqing party chief Bo Xilai circulated&lt;br/&gt;on the Internet. Now works at London-based&lt;br/&gt;Permira Advisers in Hong Kong.">
+
+            <div class="name left"> <strong>Chen Xiaodan<br />
+
+              陈晓丹</strong><br />
+
+              Grand-<br />
+
+              daughter </div>
+
+          </div>
+
+          <div id="chenWeihua" class="bubble chen medium" tooltip="Was a Beijing middle school history teacher&lt;br/&gt;who worked in the human resources ministry.&lt;br/&gt;She decried official corruption in an interview&lt;br/&gt;in the China Youth Daily last year, comparing&lt;br/&gt;corrupt officials to traitors.">
+
+            <div class="name center"> <strong>Chen Weihua<br />
+
+              陈伟华</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="dongXiaoguo" class="bubble inlaw medium" tooltip="Now retired, he was a professor at Beijing&lt;br/&gt;University of Chemical Technology.">
+
+            <div class="name center"> <strong>Dong Xiaoguo<br />
+
+              董小国</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="dongWei" class="bubble small chen" tooltip="Deputy head of a district in the central&lt;br/&gt;Chinese city of Zhuzhou, the Peking&lt;br/&gt;University chemistry and molecular&lt;br/&gt;engineering graduate was an executive&lt;br/&gt;at Kunlun Trust, a financial firm with&lt;br/&gt;links to the family of disgraced former&lt;br/&gt;Chongqing leader Bo Xilai.">
+
+            <div class="name center"> <strong>Dong Wei<br />
+
+              董巍</strong><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="chenWeilan" class="bubble chen medium" tooltip="She worked for the Beijing municipality,&lt;br/&gt;was a former National People's Congress&lt;br/&gt;member and deputy president of a school&lt;br/&gt;that trains government officials. She served&lt;br/&gt;in the People's Liberation Army in Tibet.">
+
+            <div class="name center"> <strong>Chen Weilan<br />
+
+              陈伟兰</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="chenXinhua" class="bubble inlaw medium hasPhoto" tooltip="Was chairman of China Resources Holdings,&lt;br/&gt; a state-owned enterprise with businesses&lt;br/&gt;from retail to real estate and with total assets&lt;br/&gt;of $99 billion. He was also a former vice&lt;br/&gt;minister of trade.">
+
+            <div class="name left"> <strong>Chen<br />
+
+              Xinhua<br />
+
+              陈新华</strong><br />
+
+              Son-<br />
+
+              in-law </div>
+
+          </div>
+
+          <div id="chenChen" class="bubble small chen" tooltip="Worked at the property arm of&lt;br/&gt;China Resources Holdings,&lt;br/&gt;the company his father was&lt;br/&gt;once chairman of.">
+
+            <div class="name center"> <strong>Chen Chen<br />
+
+              陈晨</strong><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="songZhenzhenEx" class="bubble inlaw medium" tooltip="Once married to Chen Fang, son of Chen Yun.&lt;br/&gt;Moved to the U.S. in the 1980s to study at the&lt;br/&gt;University of Michigan, where she obtained&lt;br/&gt;her Ph.D. Lives in San Francisco with an&lt;br/&gt;American partner, worked for AIG, then served&lt;br/&gt;as an adviser to an investment consultancy&lt;br/&gt;run by another princeling. She also worked&lt;br/&gt;in private equity and is now developing an online&lt;br/&gt;payment company.">
+
+            <div class="name center"> <strong>Song Zhenzhen<br />
+
+              宋真真</strong><br />
+
+              Ex-daughter-in-law </div>
+
+          </div>
+
+          <div id="jiaFangci" class="bubble inlaw medium" tooltip="Has appeared with her husband&lt;br/&gt;at art events in Beijing.">
+
+            <div class="name center"> <strong>Jia Fangci<br />
+
+              贾方慈</strong><br />
+
+              Daughter-<br />
+
+              in-law </div>
+
+          </div>
+
+          <div id="chenFang" class="bubble chen medium" tooltip="Was chairman of Beijing Lianhe Zhitong,&lt;br/&gt;an investment firm with a deal to raise&lt;br/&gt;$4.8 billion for redevelopment in Chongqing&lt;br/&gt;that was announced in the presence of Bo&lt;br/&gt;Xilai, the ousted former party chief of the city.">
+
+            <div class="name center"> <strong>Chen Fang<br />
+
+              陈方</strong><br />
+
+              Son </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="song_clan" class="clanContainer" style="display: none;">
+
+        <div class="header">The Song family</div>
+
+        <div class="introText">Purged in the 1960s, Song Renqiong lived in a mud-brick house on a labor farm, later returning to power with Deng Xiaoping. Three of his daughters left in the 1980s to study in the U.S. and became American citizens: Binbin, a famous Red Guard, worked for the State of Massachusetts. Zhenzhen lives in San Francisco and is developing an e-commerce company. Zhaozhao is a nurse in Michigan.</div>
+
+        <div class="backToPats">
+
+          <div class="backArrow"></div>
+
+          Back to patriarchs </div>
+
+        <div id="song_bubbleContainer" class="bubbleContainer">
+
+          <div id="songRenqiong" class="bubble song elder" tooltip="Communist Party war hero in charge of northeastern&lt;br/&gt;provinces and space technology industries. His power&lt;br/&gt;peaked in the 1980s, when he became one of the elders&lt;br/&gt;that ruled the country.">
+
+            <div class="name left elder"> <strong>Song<br />
+
+              Renqiong<br />
+
+              宋任穷</strong> </div>
+
+          </div>
+
+          <div id="zhongYuelin" class="bubble inlaw small" tooltip="One of the few women to&lt;br/&gt;participate in the Long March.">
+
+            <div class="name left"> <strong>Zhong<br />
+
+              Yuelin<br />
+
+              钟月林</strong><br />
+
+              Wife </div>
+
+          </div>
+
+          <div id="huangHaitao" class="bubble small song" tooltip="Studied in Japan.">
+
+            <div class="name right"> <strong>Huang<br />
+
+              Haitao<br />
+
+              黄海涛</strong><br />
+
+              Grand-<br />
+
+              son </div>
+
+          </div>
+
+          <div id="huangHaixin" class="bubble small song" tooltip="Studied at Fudan University in Shanghai.&lt;br/&gt;She paid her own tuition and rent while&lt;br/&gt;getting an MBA overseas, then worked for&lt;br/&gt;a state-owned company.">
+
+            <div class="name left"> <strong>Huang Haixin<br />
+
+              黄海昕</strong><br />
+
+              Grand-<br />
+
+              daughter </div>
+
+          </div>
+
+          <div id="songQin" class="bubble song medium" tooltip="She was an executive at a state-owned coal&lt;br/&gt;trading company until 2001 and later ran a&lt;br/&gt;private dairy business in Heilongjiang, the&lt;br/&gt;northeastern province once ruled by her father,&lt;br/&gt;as well as a distance-learning business.">
+
+            <div class="name left"> <strong>Song Qin<br />
+
+              宋勤</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="huangDesheng" class="bubble inlaw small" tooltip="Heads a satellite communications and technology&lt;br/&gt;company AeroInfo, which was set up in 2007,&lt;br/&gt;according to filings and company documents. He was&lt;br/&gt;also involved in the education business with wife.">
+
+            <div class="name center"> <strong>Huang<br />
+
+              Desheng<br />
+
+              黄德生</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="songXiaoping" class="bubble song small" tooltip="Lived in the U.S. with her husband.">
+
+            <div class="name center"> <strong>Song Xiaoping<br />
+
+              宋小平</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="wangTianxi" class="bubble inlaw small" tooltip="Architect who worked for I.M. Pei in the U.S.&lt;br/&gt;in the early 1980s, returning to set up a state-&lt;br/&gt;owned architecture firm. He's also written&lt;br/&gt;several books on building design.">
+
+            <div class="name center"> <strong>Wang Tianxi<br />
+
+              王天锡</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="songKehuang" class="bubble song medium" tooltip="Headed Bright Future, a real-estate investment&lt;br/&gt;company that listed partners including China&lt;br/&gt;Development Bank, Poly Group and Kunlun Trust.&lt;br/&gt;Owns a home in Irvine, California, and held shares&lt;br/&gt;in Hong Kong companies. Spent more than two&lt;br/&gt;decades in government jobs and working for&lt;br/&gt;state-owned companies.">
+
+            <div class="name left"> <strong>Song<br />
+
+              Kehuang<br />
+
+              宋克荒</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="caoXiaochun" class="bubble inlaw medium" tooltip="Owns a California home valued at almost&lt;br/&gt;$1 million with her husband Song Kehuang&lt;br/&gt;and their son, Miller Song. She was an adviser&lt;br/&gt;to her husband's investment company.">
+
+            <div class="name left"> <strong>Cao Xiaochun<br />
+
+              曹晓春</strong><br />
+
+              Daughter-<br />
+
+              in-law </div>
+
+          </div>
+
+          <div id="millerSong" class="bubble song small" tooltip="Owns PatchTogether Inc.,&lt;br/&gt;a California company that&lt;br/&gt;makes custom t-shirts, plastic&lt;br/&gt;figurines and plush toys that&lt;br/&gt;are imported from China.">
+
+            <div class="name left"> <strong>Miller Song</strong><br />
+
+              Grand-<br />
+
+              son </div>
+
+          </div>
+
+          <div id="songBinbin" class="bubble song medium" tooltip="Iconic Red Guard who pinned an arm band&lt;br/&gt;on Chairman Mao in 1966. After the Cultural&lt;br/&gt;Revolution, she got a Ph.D. at Massachusetts&lt;br/&gt;Institute of Technology, and spent most of her&lt;br/&gt;career working for the Massachusetts Depart-&lt;br/&gt;ment of Environmental Protection. She&lt;br/&gt;changed her name to Song Yan.">
+
+            <div class="name right"> <strong>Song Binbin<br />
+
+              宋彬彬</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="jinJiansheng" class="bubble inlaw small" tooltip="Born in the U.S., he was taken back to China&lt;br/&gt;while an infant, before the birth of the PRC in&lt;br/&gt;1949. After the Cultural Revolution, he studied&lt;br/&gt;at MIT and Harvard in Cambridge, Massachusetts.&lt;br/&gt;He returned to China in 1989 to set up Copia, a&lt;br/&gt;technology company, which counted China&lt;br/&gt;Development Bank and China Life as customers.&lt;br/&gt;He died in 2011.">
+
+            <div class="name center"> <strong>Jin Jiansheng<br />
+
+              靳剑生</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="jinYan" class="bubble song small" tooltip="Attended the elite Phillips Academy Andover&lt;br/&gt;and Stanford University. He's now a trader in&lt;br/&gt;Hong Kong at CICC, the Chinese investment&lt;br/&gt;bank run by the son of a former premier.">
+
+            <div class="name center"> <strong>Jin Yan</strong><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="songYunfei" class="bubble song small" tooltip="Former head of a state-owned hotel.&lt;br/&gt;She owned an apartment in Pasadena,&lt;br/&gt;California, with her son Guan Chen.">
+
+            <div class="name center"> <strong>Song Yunfei<br />
+
+              宋云飞</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="guanNanfang" class="bubble inlaw small" tooltip="A senior navy officer.">
+
+            <div class="name center"> <strong>Guan Nanfang<br />
+
+              管南方</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="guanChen" class="bubble song small" tooltip="Guan Chen wrote a memorial poem&lt;br/&gt;to his grandfather. He owned a property&lt;br/&gt;in the U.S. with his mother, Song Yunfei.">
+
+            <div class="name center"> <strong>Guan Chen<br />
+
+              管晨</strong><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="songZhenzhen" class="bubble song small" tooltip="Once married to Chen Fang, son of Chen Yun.&lt;br/&gt;Moved to the U.S. in the 1980s to study at the&lt;br/&gt;University of Michigan, where she obtained&lt;br/&gt;her Ph.D. Lives in San Francisco with an&lt;br/&gt;American partner, worked for AIG, then served&lt;br/&gt;as an adviser to an investment consultancy&lt;br/&gt;run by another princeling. She also worked&lt;br/&gt;in private equity and is now developing an online&lt;br/&gt;payment company.">
+
+            <div class="name center"> <strong>Song Zhenzhen<br />
+
+              宋真真</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="chenFangEx" class="bubble inlaw small" tooltip="Was chairman of Beijing Lianhe Zhitong,&lt;br/&gt;an investment firm with a deal to raise&lt;br/&gt;$4.8 billion for redevelopment in Chongqing&lt;br/&gt;that was announced in the presence of Bo&lt;br/&gt;Xilai, the ousted former party chief of the city.">
+
+            <div class="name center"> <strong>Chen Fang<br />
+
+              陈方</strong><br />
+
+              Ex-son-in-law </div>
+
+          </div>
+
+          <div id="songJingbo" class="bubble song hasPhoto" tooltip="Was chairman of a technology company. A&lt;br/&gt;culture aficionado, he has sought to keep&lt;br/&gt;historical artifacts from being taken abroad.&lt;br/&gt;He lived in Nice, France.">
+
+            <div class="name right"> <strong>Song<br />
+
+              Jingbo<br />
+
+              宋京波</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="songZhaozhao" class="bubble song medium" tooltip="A nurse at the University of&lt;br/&gt;Michigan hospital in Ann Arbor.">
+
+            <div class="name left"> <strong>Song<br />
+
+              Zhaozhao<br />
+
+              宋昭昭</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="alanLeeKnaus" class="bubble inlaw small" tooltip="Married to Song Zhaozhao,&lt;br/&gt;used to work for Ford Motor.">
+
+            <div class="name center"> <strong>Alan Lee Knaus</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="peng_clan" class="clanContainer" style="display: none;">
+
+        <div class="header">The Peng family</div>
+
+        <div class="introText">Peng Zhen, the longtime Communist Party boss of Beijing, was purged, like most of the Immortals, during the 1966–1976 Cultural Revolution. Son Fu Liang runs a Shenzhen golf club and is on the board of a Citic-owned TV and satellite communications company.</div>
+
+        <div class="backToPats">
+
+          <div class="backArrow"></div>
+
+          Back to patriarchs </div>
+
+        <div id="peng_bubbleContainer" class="bubbleContainer">
+
+          <div id="pengZhen" class="bubble peng elder hasPhoto" tooltip="Beijing party chief purged at the beginning&lt;br/&gt;of the Cultural Revolution, he returned to&lt;br/&gt;the Politburo in 1979. He became National&lt;br/&gt;People's Congress chairman in 1983 and&lt;br/&gt;also oversaw the drafting of laws that&lt;br/&gt;accompanied China's economic opening up.&lt;br/&gt;He has at least six grandchildren about&lt;br/&gt;whom little is known.">
+
+            <div class="name left"> <strong>Peng<br />
+
+              Zhen<br />
+
+              彭真</strong> </div>
+
+          </div>
+
+          <div id="zhangJieqing" class="bubble inlaw small" tooltip="Hailing from a revolutionary family,&lt;br/&gt;she followed her aunt to join the&lt;br/&gt;communist cause and was once&lt;br/&gt;jailed by the Nationalists. After&lt;br/&gt;marrying Peng, she served as&lt;br/&gt;his secretary for decades.">
+
+            <div class="name center"> <strong>Zhang Jieqing<br />
+
+              张洁清</strong><br />
+
+              Wife </div>
+
+          </div>
+
+          <div id="fuRui" class="bubble peng" tooltip="Was Guangdong party personnel chief before&lt;br/&gt;taking a senior role at China National Nuclear&lt;br/&gt;Corp., a state-owned nuclear weapons and&lt;br/&gt;power company. He criticized high property&lt;br/&gt;prices at a 2011 session of the Communist&lt;br/&gt;Party's advisory body.">
+
+            <div class="name center"> <strong>Fu Rui<br />
+
+              傅锐</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="fuYan" class="bubble peng" tooltip="Headed a state-owned trading company in the 2000s,&lt;br/&gt;doubling up as a private businesswoman. Fu ran an&lt;br/&gt;investment company in Beijing that has a stake in&lt;br/&gt;Tiandakang Gene Engineering, a biotechnology&lt;br/&gt;company in Shenzhen. She was also a director of&lt;br/&gt;a Hong Kong-based investment company linked to&lt;br/&gt;her husband.">
+
+            <div class="name center"> <strong>Fu Yan<br />
+
+              傅彦</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="zhouYuanyuan" class="bubble inlaw" tooltip="Ran Hong Kong-registered Masswell Investments,&lt;br/&gt;which controlled 90 percent of Ante Pharmaceutical,&lt;br/&gt;a drugmaker based in Peng Zhen's home province&lt;br/&gt;of Shanxi in central China. The company, of which&lt;br/&gt;Zhou owned 2 percent, was sold for 112 million yuan&lt;br/&gt;($18 million) in 2011.">
+
+            <div class="name center"> <strong>Zhou Yuanyuan<br />
+
+              周援远</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="fuYang" class="bubble peng" tooltip="Founded Kangda law firm after leaving his job as&lt;br/&gt;an official with the national legislature. He was the&lt;br/&gt;deputy chairman of the All China Lawyers Association.&lt;br/&gt;A lawyer working for Kangda was jailed while&lt;br/&gt;defending a businessman arrested as part of the&lt;br/&gt;mafia crackdown in Chongqing by Bo Xilai, who&lt;br/&gt;was ousted from power this year.">
+
+            <div class="name center"> <strong>Fu Yang<br />
+
+              傅洋</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="fuLiang" class="bubble peng" tooltip="A former railway official, he now runs golf and yacht clubs&lt;br/&gt;in southern China. He also sits on the board of Citic Guoan,&lt;br/&gt;a Shenzhen-listed subsidiary of Citic Group which operates&lt;br/&gt;cable and satellite TV, as well as doing real estate projects.&lt;br/&gt;Fu owned several companies, including Shenzhen Jinhe&lt;br/&gt;Investment. He was chairman of two other companies&lt;br/&gt;whose ownership is obscured by offshore registrations.">
+
+            <div class="name center"> <strong>Fu Liang<br />
+
+              傅亮</strong><br />
+
+              Son </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="wang_clan" class="clanContainer" style="display: none;">
+
+        <div class="header">The Wang family</div>
+
+        <div class="introText">Wang Zhen, the plain-spoken general, called &quot;Uncle Beard&quot; by Deng Xiaoping's family, is credited with saving the Communist Revolution by carving farms from wasteland near Mao's redoubt of Yan'an. His sons were all business executives: Wang Jun ran Citic Group and now spends his time promoting golf; Wang Zhi founded a computer company; and Wang Bing was in aviation. Great-granddaughter Clare travels between college in Sydney and the family home in Beijing.</div>
+
+        <div class="backToPats">
+
+          <div class="backArrow"></div>
+
+          Back to patriarchs </div>
+
+        <div id="wang_bubbleContainer" class="bubbleContainer">
+
+          <div id="wangZhen" class="bubble wang elder extraGen hasPhoto" tooltip="A war hero credited with saving communist&lt;br/&gt;troops from starvation in Nanniwan, he later&lt;br/&gt;led Mao's forces into Xinjiang in 1949. He was&lt;br/&gt;on the Central Military Commission, which&lt;br/&gt;controls the army, after the Cultural Revolution&lt;br/&gt;and became vice president in 1988.">
+
+            <div class="name left"> <b>Wang<br />
+
+              Zhen<br />
+
+              王震</b> </div>
+
+          </div>
+
+          <div id="wangJiqing" class="bubble inlaw small" tooltip="Principal of a Beijing middle school for children&lt;br/&gt;of officials and an education ministry inspector.">
+
+            <div class="name center"> <b>Wang Jiqing<br />
+
+              王季青</b><br />
+
+              Wife </div>
+
+          </div>
+
+          <div id="wangBing" class="bubble wang" tooltip="Head of a civilian helicopter company&lt;br/&gt;in the 1990s, he's honorary chairman of&lt;br/&gt;Nanniwan Investment, a company headed&lt;br/&gt;by his brother Wang Jun.">
+
+            <div class="name center"> <b>Wang Bing<br />
+
+              王兵</b><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="wangAnyan" class="bubble inlaw medium" tooltip="A dancer.">
+
+            <div class="name center"> <b>Wang Anyan</b><br />
+
+              Daughter-in-law </div>
+
+          </div>
+
+          <div id="wangJingyang" class="bubble wang small" tooltip="Wang Zhen's oldest grandson studied in Canada.&lt;br/&gt;He headed Netgen Inc., a provider of stock market&lt;br/&gt;information on mobile phones. He acquired a stake&lt;br/&gt;in Shenzhen Blossom, an investment company, in&lt;br/&gt;2003 and sold it the following year.">
+
+            <div class="name center"> <b>Wang<br />
+
+              Jingyang<br />
+
+              王京阳</b><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="yeJingzi" class="bubble inlaw small" tooltip="Granddaughter of Marshal Ye Jianying, one of&lt;br/&gt;China's most powerful military figures. Schooled&lt;br/&gt;in the U.S., she later organized car races on&lt;br/&gt;Shanghai's streets and runs a car engine venture&lt;br/&gt;in collaboration with Malaysia's Petronas. She uses&lt;br/&gt;the name Maggie Ip.">
+
+            <div class="name center"> <b>Ye Jingzi<br />
+
+              叶静子</b><br />
+
+              Granddaughter<br />
+
+              -in-law </div>
+
+          </div>
+
+          <div id="wangJun" class="bubble wang hasPhoto" tooltip="Ran Citic Group, one of China's largest conglomerates,&lt;br/&gt;and was a co-founder of Poly Group, another sprawling&lt;br/&gt;state-run company. He owns 10 percent of a developer&lt;br/&gt;planning a $1.6 billion project, including a tourist resort,&lt;br/&gt;in the town of Nanniwan, where his father Wang Zhen's&lt;br/&gt;revolutionary exploits made him an Immortal. A keen&lt;br/&gt;golfer, he is president of Forward Group, which builds&lt;br/&gt;golf courses across China. He also acquired 20 percent&lt;br/&gt;of Shenzhen Forward Sports Management Ltd., a joint&lt;br/&gt;venture set up by a subsidiary of Citic.">
+
+            <div class="name left"> <b>Wang<br />
+
+              Jun<br />
+
+              王军</b><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="yeWenshan" class="bubble inlaw medium" tooltip="A princeling in her own right as daughter of&lt;br/&gt;Marshal Ye Jianying, she served as vice&lt;br/&gt;chairman of Hainan Overseas Chinese,&lt;br/&gt;a property developer.">
+
+            <div class="name center"> <b>Ye Wenshan<br />
+
+              叶文珊</b><br />
+
+              Daughter-in-law </div>
+
+          </div>
+
+          <div id="wangJingjing" class="bubble wang small" tooltip="Studied in Australia. Set up a venture with&lt;br/&gt;Yang Li, another princeling, in Hong Kong,&lt;br/&gt;where she's called Wong King King and&lt;br/&gt;gives her home address in business filings&lt;br/&gt;as a $7 million apartment part-owned by state-&lt;br/&gt;run Citic. Was chairwoman of China Sciences&lt;br/&gt;Conservational Power, of which she owned&lt;br/&gt;78.5 million shares via an offshore entity. She&lt;br/&gt;now runs a Beijing-based online payment&lt;br/&gt;company and is chief financial officer of&lt;br/&gt;GDS Services, a data service provider.">
+
+            <div class="name center"> <b>Wang Jingjing<br />
+
+              王京京</b><br />
+
+              Granddaughter </div>
+
+          </div>
+
+          <div id="wangJixiang" class="bubble wang tiny" tooltip="Studying interior architecture in Sydney, Clare Wang –&lt;br/&gt;known also as Wang Jixiang – displays her fashion&lt;br/&gt;choices on social media: a Lady Dior handbag, gold-&lt;br/&gt;studded Valentino shoes and an Alexander McQueen&lt;br/&gt;bracelet. She attended a Swiss boarding school.">
+
+            <div class="name center"> <b>Clare Wang<br />
+
+              王吉湘</b><br />
+
+              Great-grand-<br />
+
+              daughter </div>
+
+          </div>
+
+          <div id="dannyWong" class="bubble wang tiny" tooltip="Clare's younger brother.">
+
+            <div class="name center"> <b>Danny<br />
+
+              Wong</b><br />
+
+              Great-grandson </div>
+
+          </div>
+
+          <div id="wangZhi" class="bubble wang hasPhoto" tooltip="Considered the father of China's computer industry, he&lt;br/&gt;founded Great Wall Computer Group in 1986 after a&lt;br/&gt;career as an official. He headed two China ventures&lt;br/&gt;with California-based Kingston Technology and owned&lt;br/&gt;shares in at least two Hong Kong companies.">
+
+            <div class="name left"> <b>Wang<br />
+
+              Zhi<br />
+
+              王之</b><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="wangJingchuan" class="bubble wang small" tooltip="A former manager at Beijing-based SAIF Partners,&lt;br/&gt;a venture capital fund, she later served as a senior&lt;br/&gt;vice president at Kongzhong Corp. In the 1990s&lt;br/&gt;she owned Technogate, a private Hong Kong&lt;br/&gt;company, with her brother. The firm was founded&lt;br/&gt;by their father.">
+
+            <div class="name center"> <b>Wang Jingchuan<br />
+
+              王京川</b><br />
+
+              Granddaughter </div>
+
+          </div>
+
+          <div id="wangJingchen" class="bubble wang small" tooltip="Became an associate director of Citic&lt;br/&gt;Capital Markets Holdings in 2002. In&lt;br/&gt;the 1990s, Jingchen and his sister were&lt;br/&gt;the sole owners of private Hong Kong&lt;br/&gt;company Technogate, co-founded by&lt;br/&gt;their father. He was also an independent&lt;br/&gt;director of Hong Kong-listed Wanji&lt;br/&gt;Pharmaceutical – now Asia Coal.">
+
+            <div class="name center"> <b>Wang Jingchen<br />
+
+              王京晨</b><br />
+
+              Grandson </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="bo_clan" class="clanContainer" style="display: none;">
+
+        <div class="header">The Bo family</div>
+
+        <div class="introText">Bo Yibo was the last Immortal to die, at age 98. He was Mao's first finance minister and later a vice premier. Son Bo Xilai entered the ruling Politburo months after his father's death in 2007. He was ousted in 2012 and accused of taking bribes, after his wife was found guilty of murdering a British businessman.</div>
+
+        <div class="backToPats">
+
+          <div class="backArrow"></div>
+
+          Back to patriarchs </div>
+
+        <div id="bo_bubbleContainer" class="bubbleContainer">
+
+          <div id="boYibo" class="bubble bo elder hasPhoto" tooltip="Communist China's first finance minister, he later&lt;br/&gt; served four terms as vice premier. He was purged&lt;br/&gt;during the Cultural Revolution and came back to&lt;br/&gt;help Deng Xiaoping reshape the economy.">
+
+            <div class="name left"> <strong>Bo<br />
+
+              Yibo<br />
+
+              薄一波</strong> </div>
+
+          </div>
+
+          <div id="huMing" class="bubble inlaw small" tooltip="Sent to prison during the Cultural&lt;br/&gt;Revolution and died in custody.">
+
+            <div class="name center"> <strong>Hu Ming<br />
+
+              胡明</strong><br />
+
+              Wife </div>
+
+          </div>
+
+          <div id="boXiying" class="bubble bo medium" tooltip="Former Ministry of Foreign Affairs&lt;br/&gt;official in charge of Africa.">
+
+            <div class="name center"> <strong>Bo Xiying<br />
+
+              薄熙莹</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="zhengYaowen" class="bubble inlaw medium" tooltip="Was China's ambassador to Denmark.">
+
+            <div class="name center"> <strong>Zheng Yaowen<br />
+
+              郑耀文</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="boJieying" class="bubble bo medium" tooltip="She owned three homes in Beijing,&lt;br/&gt;including a two-story lakeside villa&lt;br/&gt;in the city center, according to 2008&lt;br/&gt;official notices. She dedicated her&lt;br/&gt;Ph.D. dissertation in biochemistry at&lt;br/&gt;Brandeis University in Massachusetts&lt;br/&gt;to her mother, and thanked her brother&lt;br/&gt;Xicheng.">
+
+            <div class="name center"> <strong>Bo Jieying<br />
+
+              薄洁莹</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="boXiyong" class="bubble bo medium" tooltip="Was vice chairman of state-backed China&lt;br/&gt;Everbright International using the alias Li&lt;br/&gt;Xueming. He quit after his brother Bo Xilai's&lt;br/&gt;ouster brought scrutiny of the family's wealth&lt;br/&gt;and influence.">
+
+            <div class="name center"> <strong>Bo Xiyong<br />
+
+              薄熙永</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="boXilai" class="bubble bo hasPhoto" tooltip="Expelled as Chongqing leader and Politburo member&lt;br/&gt;earlier this year. The Party accused him of corruption,&lt;br/&gt;abuse of power and improper sexual relations with&lt;br/&gt;several women. He faces possible criminal charges,&lt;br/&gt;including involvement in the murder of British&lt;br/&gt;businessman Neil Heywood.">
+
+            <div class="name left"> <strong>Bo Xilai<br />
+
+              薄熙来</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="liDanyu" class="bubble inlaw small" tooltip="Daughter of former Beijing party secretary&lt;br/&gt;Li Xuefeng. She was Bo Xilai's first wife&lt;br/&gt;before he married Gu Kailai, whose own&lt;br/&gt;sister is married to Li Danyu's brother.&lt;br/&gt;She is the mother of Li Wangzhi.">
+
+            <div class="name center"> <strong>Li Danyu<br />
+
+              李丹宇</strong><br />
+
+              Ex-daughter-in-law </div>
+
+          </div>
+
+          <div id="boGuagua" class="bubble medium bo hasPhoto" tooltip="Attended Harrow and Oxford in the U.K.,&lt;br/&gt;recently graduated with a master's from the&lt;br/&gt;Harvard Kennedy School of Government.&lt;br/&gt;His partying lifestyle at Oxford came into&lt;br/&gt;media focus this year ahead of his mother's&lt;br/&gt;August conviction in the murder of British&lt;br/&gt;businessman Neil Heywood.">
+
+            <div class="name right"> <strong>Bo Guagua<br />
+
+              薄瓜瓜</strong><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="liWangzhi" class="bubble medium bo hasPhoto" tooltip="Son from Bo Xilai's first marriage, uses&lt;br/&gt;the name Brendan. He earned a master's&lt;br/&gt;degree from Columbia University in New&lt;br/&gt;York and worked at Citigroup before starting&lt;br/&gt;his own investment company.">
+
+            <div class="name center"> <strong>Li Wangzhi<br />
+
+              李望知<br />
+
+            </strong> Grandson </div>
+
+          </div>
+
+          <div id="brendaChen" class="bubble small inlaw" tooltip="Earned an MBA at Yale University in 2006&lt;br/&gt;and took a job as a marketing director for&lt;br/&gt;Google in Beijing. She owns a home in&lt;br/&gt;southern California.">
+
+            <div class="name center"> <strong>Brenda Chen</strong><br />
+
+              Granddaughter-in-law </div>
+
+          </div>
+
+          <div id="guKailai" class="bubble inlaw hasPhoto" tooltip="The youngest of five daughters of a People’s&lt;br/&gt;Liberation Army general, Gu rose from a butcher’s&lt;br/&gt;assistant during the Cultural Revolution to become&lt;br/&gt;a lawyer who won a lawsuit in the U.S. Two of Gu's&lt;br/&gt;sisters held at least $126 million in share holdings and&lt;br/&gt;proceeds from real-estate investments, Bloomberg News&lt;br/&gt;reported on April 14. She was convicted in August of&lt;br/&gt;murdering British businessman Neil Heywood. Heywood's&lt;br/&gt;death in November 2011 hastened the downfall of her&lt;br/&gt;husband Bo Xilai.">
+
+            <div class="name left"> <strong>Gu Kailai<br />
+
+              谷开来</strong><br />
+
+              Daughter<br />
+
+              -in-law </div>
+
+          </div>
+
+          <div id="boXiaoying" class="bubble bo medium" tooltip="An associate professor of history at Peking University.">
+
+            <div class="name center"> <strong>Bo Xiaoying<br />
+
+              薄小莹</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="boXicheng" class="bubble bo medium" tooltip="Was chairman of Beijing Liuhexing Hotel&lt;br/&gt;Management Co. and former tourism chief&lt;br/&gt;in the Chinese capital. He was also an&lt;br/&gt;independent director of Citic Securities.">
+
+            <div class="name center"> <strong>Bo Xicheng<br />
+
+              薄熙成</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="boXining" class="bubble bo medium" tooltip="Was chairman of Beijing Liuhexing Group.">
+
+            <div class="name center"> <strong>Bo Xining<br />
+
+              薄熙宁</strong><br />
+
+              Son </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="li_clan" class="clanContainer" style="display: none;">
+
+        <div class="header">The Li family</div>
+
+        <div class="introText">Li Xiannian backed Deng Xiaoping's decision to suppress the student protests on Tiananmen Square in 1989. Son Li Ping became a major general. Daughter Li Xiaolin studied at UCLA, married an outspoken Air Force general, and, like one of Deng's daughters, spends her time running a semi-official diplomatic organization.</div>
+
+        <div class="backToPats">
+
+          <div class="backArrow"></div>
+
+          Back to patriarchs </div>
+
+        <div id="li_bubbleContainer" class="bubbleContainer">
+
+          <div id="liXiannian" class="bubble liX elder hasPhoto" tooltip="President from 1983 to 1988, he helped orchestrate&lt;br/&gt;the arrest of the so-called 'Gang of Four,' led by Mao&lt;br/&gt;Zedong's wife, blamed for the Cultural Revolution. An&lt;br/&gt;architect of China's economic policy, he ordered his&lt;br/&gt;family to stay out of business, according to state media&lt;br/&gt;interviews with his children.">
+
+            <div class="name left"> <strong>Li<br />
+
+              Xiannian<br />
+
+              李先念</strong><br />
+
+            </div>
+
+          </div>
+
+          <div id="linJiamei" class="bubble inlaw small hasPhoto" tooltip="She helped implement China's one-child&lt;br/&gt;policy as a senior official in the family&lt;br/&gt;planning commission in the 1980s. Lin also&lt;br/&gt;headed a number of medical associations.">
+
+            <div class="name left"> <strong>Lin<br />
+
+              Jiamei<br />
+
+              林佳媚</strong><br />
+
+              Wife </div>
+
+          </div>
+
+          <div id="liJin" class="bubble liX medium" tooltip="Li's daughter from a previous marriage.&lt;br/&gt;Worked as a doctor at a military hospital&lt;br/&gt;in southern China.">
+
+            <div class="name center"> <strong>Li Jin<br />
+
+              李劲</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="liuShichao" class="bubble inlaw medium" tooltip="Li Jin's husband, according to an&lt;br/&gt;inscription attached to a publicly&lt;br/&gt;displayed wreath at the funeral of&lt;br/&gt;Li Ziyang. Was an official in the&lt;br/&gt;trade and development bureau&lt;br/&gt;in Shenzhen, according to&lt;br/&gt;a military veterans' forum.">
+
+            <div class="name center"> <strong>Liu Shichao<br />
+
+              刘仕超</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="liZiyang" class="bubble liX medium" tooltip="She died Nov. 2, aged 62. The Bo and Song&lt;br/&gt;families sent wreaths to her funeral in Beijing.&lt;br/&gt;A doctor, she followed her mother into health&lt;br/&gt;care. She also held an advisory role to the&lt;br/&gt;maker of nutritional supplements in southern&lt;br/&gt;China called Wide Brightness.">
+
+            <div class="name center"> <strong>Li Ziyang<br />
+
+              李紫阳</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="fanXiaofu" class="bubble inlaw medium" tooltip="Was vice general manager&lt;br/&gt;of Sinochem Group, director&lt;br/&gt;of a unit of Everbright Group,&lt;br/&gt;and director of the Ministry of&lt;br/&gt;Commerce's unit in charge of&lt;br/&gt;Taiwan investment.">
+
+            <div class="name center"> <strong>Fan Xiaofu<br />
+
+              范晓复</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="fanYiwen" class="bubble liX small" tooltip="Daughter of Li Ziyang&lt;br/&gt;and Fan Xiaofu.">
+
+            <div class="name center"> <strong>Fan Yiwen<br />
+
+              范依文</strong><br />
+
+              Granddaughter </div>
+
+          </div>
+
+          <div id="gaoHaining" class="bubble inlaw small" tooltip="Son-in-law of Li Ziyang, according to an&lt;br/&gt; inscription attached to a publicly displayed&lt;br/&gt;wreath at the funeral of Li Ziyang.">
+
+            <div class="name center"> <strong>Gao Haining<br />
+
+              高海宁</strong><br />
+
+              Grandson-in-law </div>
+
+          </div>
+
+          <div id="liPing" class="bubble liX medium" tooltip="Served as a major general in the military,&lt;br/&gt;having joined the armed forces at age 16.&lt;br/&gt;He worked a stint at the Chinese embassy&lt;br/&gt;in Australia.">
+
+            <div class="name center"> <strong>Li Ping<br />
+
+              李平</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="wangLurong" class="bubble inlaw medium" tooltip="Li Ping's wife, according to an inscription&lt;br/&gt;attached to a publicly displayed wreath&lt;br/&gt;at the funeral of Li Ziyang.">
+
+            <div class="name center"> <strong>Wang Lurong<br />
+
+              王路荣</strong><br />
+
+              Daughter-in-law </div>
+
+          </div>
+
+          <div id="liWei" class="bubble liX small" tooltip="Son of Li Ping. His grandfather named him.">
+
+            <div class="name center"> <strong>Li Wei<br />
+
+              李威</strong><br />
+
+              Grandson </div>
+
+          </div>
+
+          <div id="liXiaolin" class="bubble liX medium hasPhoto" tooltip="Studied American history at UCLA&lt;br/&gt;and worked at the Chinese embassy&lt;br/&gt;in the U.S. in the early 1990s. Headed&lt;br/&gt;the Chinese People's Association for&lt;br/&gt;Friendship with Foreign Countries.">
+
+            <div class="name center"> <strong>Li<br />
+
+              Xiaolin<br />
+
+              李小林</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="liuYazhou" class="bubble inlaw medium" tooltip="A famous military novelist who was promoted to&lt;br/&gt;the rank of general in June this year. He was a&lt;br/&gt;delegate to the 18th Communist Party Congress&lt;br/&gt;in November. He was a visiting scholar at Stanford&lt;br/&gt;University in the 1980s and later helped China&lt;br/&gt;establish diplomatic relations with South Korea.">
+
+            <div class="name center"> <strong>Liu Yazhou<br />
+
+              刘亚洲</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="liuLinzhi" class="bubble liX small" tooltip="Graduated from Fudan University&lt;br/&gt;journalism school in Shanghai.">
+
+            <div class="name center"> <strong>Liu Linzhi<br />
+
+              刘林智</strong><br />
+
+              Grandson </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="yang_clan" class="clanContainer" style="display: none;">
+
+        <div class="header">The Yang family</div>
+
+        <div class="introText">As president of China and a PLA leader, Yang Shangkun, together with his brother General Yang Baibing backed the decision to crush the Tiananmen Square protestors. Son Yang Shaojing followed his father into the army. Daughter Yang Li was honorary chairman of a company partly owned by Citic Group and is married to a top executive at China Poly Group, the state-owned arms-to-real estate conglomerate.</div>
+
+        <div class="backToPats">
+
+          <div class="backArrow"></div>
+
+          Back to patriarchs </div>
+
+        <div id="yang_bubbleContainer" class="bubbleContainer">
+
+          <div id="yangShangkun" class="bubble yang elder hasPhoto" tooltip="China's president from 1988 to 1993. He was&lt;br/&gt;promoted to first vice chairman of the Central&lt;br/&gt;Military Commission after the Tiananmen&lt;br/&gt;Square crackdown, while his brother, another&lt;br/&gt;general, also rose up the ranks. A close ally&lt;br/&gt;of Deng Xiaoping, Yang Shangkun lost military&lt;br/&gt;power after 1992.">
+
+            <div class="name left"> <strong>Yang<br />
+
+              Shangkun<br />
+
+              杨尚昆</strong> </div>
+
+          </div>
+
+          <div id="liBozhao" class="bubble inlaw small" tooltip="A fighter in the revolution, she&lt;br/&gt;was a famous playwright who&lt;br/&gt;co-founded the People's Art&lt;br/&gt;Theater in the capital.">
+
+            <div class="name center"> <strong>Li Bozhao<br />
+
+              李伯钊</strong><br />
+
+              Wife </div>
+
+          </div>
+
+          <div id="yangShaojing" class="bubble yang" tooltip="Worked for the strategic missile and nuclear&lt;br/&gt;command unit of the People's Liberation Army.">
+
+            <div class="name center"> <strong>Yang Shaojing<br />
+
+              杨绍京</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="zhangMeide" class="bubble inlaw" tooltip="Was a military officer.">
+
+            <div class="name center"> <strong>Zhang Meide<br />
+
+              张美德</strong><br />
+
+              Daughter-in-law </div>
+
+          </div>
+
+          <div id="yangYang" class="bubble yang small">
+
+            <div class="name center"> <strong>Yang Yang<br />
+
+              杨杨</strong><br />
+
+              Granddaughter </div>
+
+          </div>
+
+          <div id="yangJiao" class="bubble yang small">
+
+            <div class="name center"> <strong>Yang Jiao<br />
+
+              杨娇</strong><br />
+
+              Granddaughter </div>
+
+          </div>
+
+          <div id="yangShaoming" class="bubble yang hasPhoto" tooltip="Photojournalist whose famous works include&lt;br/&gt;images of Mao Zedong and Deng Xiaoping.&lt;br/&gt;He's vice chairman of the China Soong Ching&lt;br/&gt;Ling Foundation, a national charity.">
+
+            <div class="name right"> <strong>Yang<br />
+
+              Shaoming<br />
+
+              杨绍明</strong><br />
+
+              Son </div>
+
+          </div>
+
+          <div id="yangLi" class="bubble yang" tooltip="A Princeton fellow who graduated from City&lt;br/&gt;University of New York, she set up a venture&lt;br/&gt;with Wang Zhen's granddaughter. She was&lt;br/&gt;honorary chairman of an investment company&lt;br/&gt;partly owned by Citic Group, a director of at&lt;br/&gt;least four Hong Kong-registered companies and&lt;br/&gt;gives her home address as a high-end property&lt;br/&gt;owned by a unit of Citic, according to filings.">
+
+            <div class="name center"> <strong>Yang Li<br />
+
+              杨李</strong><br />
+
+              Daughter </div>
+
+          </div>
+
+          <div id="wangXiaochao" class="bubble inlaw hasPhoto" tooltip="Holds about $32 million shares in Poly&lt;br/&gt;Real Estate. He's No. 3 at its parent,&lt;br/&gt;China Poly Group, the giant arms-to-&lt;br/&gt;art dealing company linked to the army.">
+
+            <div class="name right"> <strong>Wang<br />
+
+              Xiaochao<br />
+
+              王小朝</strong><br />
+
+              Son-in-law </div>
+
+          </div>
+
+          <div id="wangLiangmei" class="bubble yang small" tooltip="As a child she joined Deng, Jiang Zemin&lt;br/&gt;and other leaders planting trees in the&lt;br/&gt;capital. The annual traditional event was&lt;br/&gt;featured prominently in the People's Daily.">
+
+            <div class="name center"> <strong>Wang Liangmei<br />
+
+              王靓妹</strong><br />
+
+              Granddaughter </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="familyTreeBackground" style="">
+
+        <ul class="familyTreeLabels">
+
+          <li>3rd generation</li>
+
+          <li id="gen2label">2nd generation</li>
+
+          <li>1st generation</li>
+
+        </ul>
+
+        <img src="./Mapping China's Red Nobility - Bloomberg_files/familyTreeBackground.png" alt="o" width="960" height="960" data-pinit="registered" /> </div>
+
+      <div id="familyTreeBackground2" style="display: none;">
+
+        <ul class="familyTreeLabels gen4">
+
+          <li>4th generation</li>
+
+          <li>3rd generation</li>
+
+          <li id="gen2label">2nd generation</li>
+
+          <li>1st generation</li>
+
+        </ul>
+
+        <img src="./Mapping China's Red Nobility - Bloomberg_files/familyTreeBackground_2.png" alt="o" width="962" height="960" data-pinit="registered" /> </div>
+
+      <div class="photoCredit">
+
+        <p>PHOTOS Chen Yun: AFP/Getty Images; Yu Ruomu: AP Photo/Xinhua, Fan Rujun; Chen Yuan: Nelson Ching/Bloomberg; Chen Xiaoxin: Ji Guoqiang - ImagineChina; Chen Xiaodan: EyePress; Chen Xinhua: Wang Xiaodong - ImagineChina</p>
+
+      </div>
+
+    </div>
+
+    <div id="connectContainer" class="contentContainer" style="display: block;">
+
+      <div class="header">Immortal together</div>
+
+      <div class="introText">Like any aristocracy, the families of the Eight Immortals often intertwine. Connections found by Bloomberg News include business dealings, employers in common, ties to the same private or state-owned companies and diplomatic organizations, and even an intermarriage.</div>
+
+      <div id="annotationsContainer">
+
+  <div id="instruct1" class="mainText annotations">
+    <h3><strong>General Wang Zhen</strong>.</h3>
+  </div>
+
+   <div id="instruct2" class="mainText annotations">
+     <h3>Chen Yun .</h3>
+   </div>
+
+        <div id="instruct3" class="mainText annotations">
+          <h3>President Li Xian Nian.</h3>
+        </div>
+
+        <div id="pointer1" class="pointers"></div>
+
+        <div id="pointer2" class="pointers"></div>
+
+        <div id="pointer3" class="pointers"></div>
+
+      </div>
+
+      <div id="canvas_container">
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="960" height="960">
+
+          <path fill="none" stroke="#ffffff" d="M185.351,516.804C501.259,327.01599999999996,712.726,531.727,750.927,557.954" style="stroke-width: 20px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M367.584,696.727C457.118,439.859,650.466,469.221,757.2860000000001,535.805" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M561.954,101.417C614.529,428.912,687.541,480.901,756.145,535.425" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M562.31,96.724C468.024,270.527,261.389,292.117,188.796,271.983" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M563.229,98.169C471.192,207.395,247.402,254.429,200.946,246.062" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M562.166,99.234C551.702,210.319,536.673,591.539,580.388,696.692" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M561.456,98.879C535.827,196.715,278.052,526.454,200.91,547.659" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M561.954,101.417C463.29,353.992,568.211,758.597,551.645,707.646" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M202.306,548.327C400.994,483.157,384.95500000000004,605.085,367.584,696.726" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M196.324,549.798C335.041,501.979,782.678,299.746,782.678,299.746" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M376.565,96.034C482.356,335.808,727.114,288.155,769.2,276.692" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M356.379,99.169C477.991,337.536,367.584,696.726,367.584,696.726" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M322.576,115.711C423.822,357.978,331.593,677.847,331.593,677.847" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M298.051,99.282C398.27,364.109,189.48,487.509,153.588,498.162" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M320.708,108.991C420.755,381.485,234.22200000000004,492.24399999999997,189.32200000000003,514.694" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M342.285,108.991C442.51300000000003,384.462,207.54700000000003,543.15,200.36100000000002,547.841" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M342.285,108.991C443.24100000000004,355.933,367.584,696.726,367.584,696.726" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M618.771,119.725C564.086,229.758,312.796,269.348,199.709,246.191" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M618.771,119.725C564.692,269.369,716.699,505.19899999999996,761.0369999999999,538.7909999999999" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M613.564,684.591C524.487,441.182,352.797,272.529,201.168,246.511" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M550.899,709.413C538.899,560.126,315.488,296.78000000000003,187.209,269.646" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M551.882,706.619C524.487,588.005,421.8539999999999,563.771,367.58399999999995,696.726" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M618,119C594.349,157.824,388.697,613.634,367.584,696.727" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <path fill="none" stroke="#ffffff" d="M370.5,688.5C401.5,505.5,323.5,342.5,187.209,269.646" style="stroke-width: 15px; stroke-linecap: round; stroke-opacity: 1;" stroke-width="15" stroke-linecap="round" stroke-opacity="1"></path>
+
+          <desc></desc>
+        </svg>
+
+      </div>
+
+    </div>
+
+    <div id="patriarchContainer" class="contentContainer" style="display: none;">
+
+      <div class="introText">Below are the Eight Immortals, founding fathers of Communist China who later emerged from the chaos of Mao Zedong's Cultural Revolution to orchestrate the opening of China to the world in 1978. Click on an immortal to explore his family tree and see what happened to the next generations.</div>
+
+      <div id="patsRowOne">
+
+        <div id="dengXiaoping2" class="bubble deng elder extraGen" clan="deng" style="display: none;">
+
+          <div class="blurb" style="display: none;">
+
+            <h3><b>Deng Xiaoping</b> 邓小平</h3>
+
+            Paramount leader after Mao's death and architect of the economic liberalization that lifted China out of poverty. The opening created opportunities for princelings to enrich themselves.</div>
+
+        </div>
+
+        <div id="boYibo2" class="bubble bo elder" clan="bo" style="display: none;">
+
+          <div class="blurb" style="display: none;">
+
+            <h3><b>Bo Yibo</b> 薄一波</h3>
+
+            Communist China's first finance minister, he later served four terms as vice premier. He was purged during the Cultural Revolution and came back to help Deng Xiaoping reshape the economy.</div>
+
+        </div>
+
+        <div id="chenYun2" class="bubble chen elder" clan="chen" style="left: 400px; top: 530px;">
+
+          <div class="blurb" style="display: none;">
+
+            <h3><b>Chen Yun</b> 陈云</h3>
+
+            One of the earliest members of the Communist Party, his influence rivaled Deng Xiaoping's. He ran economic policy in the 1980s and is famous for his description of China's economic reform as being like a bird in a cage.</div>
+
+        </div>
+
+        <div id="songRenqiong2" class="bubble song elder" clan="song" style="display: none;">
+
+          <div class="blurb" style="display: none;">
+
+            <h3><b>Song Renqiong</b> 宋任穷</h3>
+
+            Communist Party war hero in charge of  northeastern provinces and space technology industries. His power peaked in the 1980s, when he became one of the elders that ruled the country.</div>
+
+        </div>
+
+      </div>
+
+      <div id="patsRowTwo">
+
+        <div id="pengZhen2" class="bubble peng elder" clan="peng" style="display: none;">
+
+          <div class="blurb" style="display: none;">
+
+            <h3><b>Peng Zhen</b> 彭真</h3>
+
+            Beijing party chief purged at the beginning of the Cultural Revolution, he returned to the Politburo in 1979 and became National People's Congress chairman in 1983. Peng oversaw drafting of laws that accompanied China's economic opening up.</div>
+
+        </div>
+
+        <div id="wangZhen2" class="bubble wang elder extraGen" clan="wang" style="display: none;">
+
+          <div class="blurb" style="display: none;">
+
+            <h3><b>Wang Zhen</b> 王震</h3>
+
+            A war hero credited with saving communist troops from starvation in Nanniwan, he later led the People's Liberation Army to conquer Xinjiang. He led the military after the Cultural Revolution and became vice president in 1988.</div>
+
+        </div>
+
+        <div id="liXiannian2" class="bubble liX elder" clan="li" style="display: none;">
+
+          <div class="blurb" style="display: none;">
+
+            <h3><b>Li Xiannian</b> 李先念</h3>
+
+            President from 1983 to 1988, he helped orchestrate the arrest of the so-called &quot;Gang of Four,&quot; led by Mao Zedong's wife, blamed for the Cultural Revolution. An architect of China's economic policy, he ordered his family to stay out of business, according to state media interviews with his children.</div>
+
+        </div>
+
+        <div id="yangShangkun2" class="bubble yang elder" clan="yang" style="display: none;">
+
+          <div class="blurb" style="display: none;">
+
+            <h3><b>Yang Shangkun</b> 杨尚昆</h3>
+
+            China's president from 1988 to 1993. He was promoted to first vice chairman of the Central Military Commission after the Tiananmen Square crackdown, while his brother, another general, also rose up the ranks. A close ally of Deng Xiaoping, Yang Shangkun lost military power after 1992.</div>
+
+        </div>
+
+      </div>
+
+      <div class="photoCredit">PHOTOS Deng: AFP/Getty Images; Bo: EyePress; Chen: AFP/Getty Images; Song: Family photo via Miller Song; Peng: AP Photo/Neal Ulevich; Wang: AFP/Getty Images; Li: Keystone/Getty Images; Yang: AFP/Getty Images</div>
+
+    </div>
+
+    <div id="trendsContainer" class="contentContainer" style="display: none;">
+
+      <div class="header">Measuring privilege</div>
+
+      <div class="introText">Tracking the fortunes of 103 people – the Immortals' descendants and their spouses* – Bloomberg News shows how they reaped benefits from China's boom. They parlayed state jobs and connections into private careers, and were able to work, study and buy property overseas.</div>
+
+      <!--<img src="http://go.bloomberg.com/multimedia/files/2012/12/trends_test.png" height="1456" width="960">-->
+
+      <div id="eduBar" class="trendBarsContainer">
+
+        <div class="trendsLabel">Clans with connections</div>
+
+        <div class="barHead"><b>Educated overseas:</b> 30 people</div>
+
+      </div>
+
+      <div id="usTiesBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Lived, worked or owned property in U.S.:</b> 34 people</div>
+
+      </div>
+
+      <div id="execBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Executives in private business:</b> 43 people
+
+          <div class="barFootnote">*Executives or directors of private or publicly listed companies</div>
+
+        </div>
+
+      </div>
+
+      <div id="soeExecBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Executives in state-owned enterprises:</b> 26 people</div>
+
+      </div>
+
+      <div id="govPartyBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Held government or Communist Party positions:</b> 30 people
+
+          <div class="barFootnote">*Excludes state-owned companies and the military</div>
+
+        </div>
+
+      </div>
+
+      <div id="offshoreBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Links to companies registered offshore:</b> 18 people
+
+          <div class="barFootnote">*Includes executives and directors of companies registered or affiliates registered offshore in jurisdictions with strict privacy laws. These include the British Virgin Islands, the Cayman Islands and Liberia. It doesn't include companies registered in Hong Kong.</div>
+
+        </div>
+
+      </div>
+
+      <div id="militaryBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Ties to China's military:</b> 25 people
+
+          <div class="barFootnote">*Includes members of the military or related associations, attending military-affiliated schools, working for companies connected to the People's Liberation Army, executives at state-owned armaments, space and nuclear companies, and officials.</div>
+
+        </div>
+
+      </div>
+
+      <div id="financeBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Worked in finance:</b> 27 people</div>
+
+      </div>
+
+      <div id="techBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Worked in technology:</b> 21 people</div>
+
+      </div>
+
+      <div id="reBar" class="trendBarsContainer">
+
+        <div class="barHead"><b>Worked in real estate:</b> 16 people</div>
+
+      </div>
+
+      <div class="mainText">* Note: Bloomberg's relative trend counts do not include Alan Lee Knaus, who is not a Chinese descendant.</div>
+
+    </div>
+
+    <!--End Custom Content Section -->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+  </div>
+
+</div>
+
+
+<p></body></p>
+
+<p></html></p>
+</body>
+</html>
